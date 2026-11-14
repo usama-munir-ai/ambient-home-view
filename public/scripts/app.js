@@ -6,7 +6,7 @@ import { state } from "./state.js";
 import { TICK_MS, FRAMES } from "./constants.js";
 import { $, on } from "./util.js";
 import { loadConfig } from "./config.js";
-import { loadContent } from "./content.js";
+import { loadContent, applyVisitorLocation } from "./content.js";
 import { startThemeRunner } from "./theme.js";
 import { tickHome, renderHomeMeta } from "./home.js";
 
@@ -51,6 +51,7 @@ async function boot() {
   try {
     if (!state.bootedAt) state.bootedAt = Date.now();
     await Promise.allSettled([loadConfig(), loadContent(), loadSplashManifest()]);
+    applyVisitorLocation();
 
     // Theme depends on home location
     startThemeRunner();

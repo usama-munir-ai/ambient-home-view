@@ -1,6 +1,6 @@
 // Open-Meteo client. Cache + classify + render.
 
-import { state } from "./state.js";
+import { state, locationKey } from "./state.js";
 import { STORAGE, WEATHER_REFRESH_MS } from "./constants.js";
 import { readLS, writeLS } from "./util.js";
 import { renderHomeMeta } from "./home.js";
@@ -48,6 +48,7 @@ export function loadCachedWeather() {
   const cached = readLS(STORAGE.weather, null);
   if (!cached || !cached.current) return false;
   if (Date.now() - (cached.savedAt || 0) > 6 * 60 * 60 * 1000) return false;
+  if (cached.loc && cached.loc !== locationKey()) return false;
 
   state.weather.current = cached.current;
   state.weather.daily = cached.daily || null;
@@ -177,6 +178,7 @@ export async function refreshWeather() {
 
     writeLS(STORAGE.weather, {
       savedAt: Date.now(),
+      loc: locationKey(),
       current: payload.current,
       daily: payload.daily || null,
       hourly: payload.hourly || null,

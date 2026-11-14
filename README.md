@@ -101,6 +101,20 @@ once from Settings → Scan Drive. The browser never holds Google credentials:
 a small Cloudflare function reads the folder with a service account that
 belongs to you, and that is the only permission it has.
 
+## It knows where each screen is
+
+Once deployed, one URL works for the whole family. Each screen shows its own
+city's time, weather and prayer times, and names the city beside the
+temperature: Lahore for the tablet in Lahore, Istanbul for the TV in
+Istanbul, Oslo for the phone in Oslo. There is no location prompt and
+nothing to configure. Cloudflare works out the city from the connection at
+the edge, so it also works on TVs and smart displays that have no location
+permission at all.
+
+To pin one fixed location instead, for a wall display behind a VPN for
+example, set `"autoLocate": false` under `home` in
+`public/data/dashboard-content.json`.
+
 ## Run it locally
 
 ```bash
@@ -110,10 +124,10 @@ npm install
 npm run dev
 ```
 
-Open <http://localhost:3000>. Set your location in
-`public/data/dashboard-content.json` under `home` (name, latitude, longitude,
-time zone). The world clock cities live in the same file. The default is
-Makkah, so you will want to change it.
+Open <http://localhost:3000>. Running locally there is no edge to detect
+your city, so it uses the `home` entry in
+`public/data/dashboard-content.json` (name, latitude, longitude, time zone).
+The default is Makkah. The world clock cities live in the same file.
 
 `npm run preview` runs the site through Cloudflare's local runtime so the
 optional functions (access gate, photos) work too. Put their variables in a
@@ -188,10 +202,11 @@ household; for a larger private audience, Cloudflare Access (free for up to
   Google Fonts, and the image hosts for wallpapers.
 - Shipped with a strict Content Security Policy, `nosniff`, frame
   protection and a referrer policy (see `public/_headers`).
-- Your location lives in a JSON file in your fork. Prayer and weather
-  requests send the coordinates to Aladhan and Open-Meteo. If the location
-  is in the United States they also go to the National Weather Service for
-  storm alerts. They go nowhere else.
+- Location is city-level only, derived by Cloudflare from the connection.
+  The site never asks for precise location and stores nothing about
+  visitors. Prayer and weather requests send those city coordinates to
+  Aladhan and Open-Meteo. If the city is in the United States they also go
+  to the National Weather Service for storm alerts. They go nowhere else.
 - Google credentials never reach the browser. The photos function reads one
   folder with a read-only scope, refuses to run on an ungated site, and
   serves only files from that folder.

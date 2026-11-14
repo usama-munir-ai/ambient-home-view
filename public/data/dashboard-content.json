@@ -3,6 +3,7 @@
     "name": "Makkah",
     "shortName": "Makkah",
     "tz": "Asia/Riyadh",
+    "autoLocate": true,
     "lat": 21.4225,
     "lon": 39.8262
   },

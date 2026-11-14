@@ -1,6 +1,6 @@
 // Prayer times — Aladhan API + cache + render to prayer frame.
 
-import { state } from "./state.js";
+import { state, locationKey } from "./state.js";
 import { STORAGE, PRAYER_REFRESH_MS } from "./constants.js";
 import { readLS, writeLS, todayKey, $ } from "./util.js";
 import { format12hour, formatHms, parsePrayerTime } from "./time.js";
@@ -83,6 +83,7 @@ export function loadCachedPrayer() {
   const cached = readLS(STORAGE.prayer, null);
   if (!cached || !cached.data || cached.dateKey !== todayKey()) return false;
   if ((cached.params || "") !== prayerParams()) return false;
+  if (cached.loc && cached.loc !== locationKey()) return false;
   state.prayer.data = cached.data;
   state.prayer.status = "cached";
   renderPrayerFrame();
@@ -106,7 +107,7 @@ export async function refreshPrayer() {
     if (!payload?.data?.timings) throw new Error("payload missing timings");
     state.prayer.data = payload.data;
     state.prayer.status = "ready";
-    writeLS(STORAGE.prayer, { dateKey: todayKey(), params, data: payload.data });
+    writeLS(STORAGE.prayer, { dateKey: todayKey(), params, loc: locationKey(), data: payload.data });
     window.dispatchEvent(new CustomEvent("prayer-change"));
   } catch (err) {
     if (!state.prayer.data) state.prayer.status = "unavailable";

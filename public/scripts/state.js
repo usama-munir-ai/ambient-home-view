@@ -18,7 +18,7 @@ export const state = {
     surahContext: {},
   },
 
-  /** Pinned home location (from content.home). */
+  /** Home location: the visitor's city when detected, else content.home. */
   homeLocation: null,
 
   /** Prayer cache (from Aladhan). */
@@ -62,4 +62,9 @@ export const state = {
 
 export function setFrame(key) {
   state.currentFrame = key;
+}
+
+// Cached weather and prayer data belong to one place; ~1 km precision is plenty.
+export function locationKey(loc = state.homeLocation) {
+  return loc ? `${Number(loc.lat).toFixed(2)},${Number(loc.lon).toFixed(2)}` : "";
 }

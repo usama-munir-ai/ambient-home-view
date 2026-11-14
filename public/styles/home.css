@@ -253,6 +253,21 @@
   min-width: 0;
 }
 
+.home-now-cell-place {
+  font: 700 8px/1 var(--font-swiss);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 96px;
+}
+
+.home-now-cell-place:empty {
+  display: none;
+}
+
 .home-now-cell-cond {
   font: 600 13px/1 var(--font-swiss);
   color: #ffffff;

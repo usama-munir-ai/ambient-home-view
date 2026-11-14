@@ -2,7 +2,7 @@
 // Top-left hero clock, top-right live wallpaper location clock,
 // whisper strip (daily Ayah/quote + next prayer pill), and enlarged 3-column bottom deck.
 
-import { $ } from "./util.js";
+import { $, escapeHtml } from "./util.js";
 import { state } from "./state.js";
 import { parsePrayerTime, format12hour } from "./time.js";
 
@@ -273,6 +273,7 @@ function renderNowCell(iconKey, label, temp, high, low) {
     <span class="home-now-cell-icon" aria-hidden="true">${icon}</span>
     <span class="home-now-cell-temp tabular">${tempStr}<span class="home-now-cell-deg" aria-hidden="true">°</span></span>
     <span class="home-now-cell-side">
+      <span class="home-now-cell-place">${escapeHtml(state.homeLocation?.shortName || state.homeLocation?.name || "")}</span>
       <span class="home-now-cell-cond">${label || ""}</span>
       <span class="home-now-cell-hilo tabular">${formatHiLo(high, low)}</span>
     </span>
