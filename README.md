@@ -124,16 +124,40 @@ Handy preview parameters: `?wx=snow-heavy`, `?wx=thunderstorm`, `?tod=night`,
 
 ## Deploy for free on Cloudflare Pages
 
+This is a **Pages** project, not a Worker. The access gate and the photos
+endpoint live in `functions/`, which only Pages runs. Cloudflare's dashboard
+opens the Worker setup by default, so the one thing to get right is landing
+on the Pages form.
+
 1. Fork this repository.
-2. In the Cloudflare dashboard choose **Workers & Pages → Create → Pages →
-   Connect to Git** and pick your fork.
-3. Build command: leave empty. Build output directory: `public`.
-4. Deploy. Every push to `main` redeploys.
+2. Open the Pages setup directly:
+   <https://dash.cloudflare.com/?to=/:account/pages/new/provider/github>.
+   Or go to **Workers & Pages → Create** and follow the small link at the
+   bottom, "Looking to deploy Pages? Get started".
+3. Pick your fork and fill in the form:
+
+   | Field | Value |
+   |---|---|
+   | Production branch | `main` |
+   | Framework preset | None |
+   | Build command | leave empty |
+   | Build output directory | `public` |
+
+4. Save and Deploy. Every push to `main` redeploys.
 5. In your fork, open the **Actions** tab and enable workflows, so the daily
    wallpaper refresh keeps running. GitHub disables scheduled workflows on
    forks until you do.
 
-Environment variables (all optional, set under the Pages project's settings):
+If the form asks for a **Deploy command** (`npx wrangler deploy`), you are in
+the Worker setup and the build will fail with "Missing entry-point to Worker
+script". Go back and use the link in step 2.
+
+To use your own domain, open the Pages project's **Custom domains** tab and
+add it. Cloudflare creates the DNS record and the certificate for you when
+the domain is on your Cloudflare account.
+
+Environment variables (all optional, set under the Pages project's **Settings →
+Variables and Secrets**; retry the latest deployment after changing them):
 
 | Variable | Purpose |
 |---|---|
