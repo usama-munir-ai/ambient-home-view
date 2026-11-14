@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--
+  Ambient Home View — clock-first ambient dashboard for any screen.
+  Designed on a 512×300 CSS viewport (Facebook Portal 10), responsive to
+  any landscape or portrait screen. Native ESM modules, no build step.
+  Static site + two optional Cloudflare Pages Functions.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=512, height=300, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#06080c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  <title>Ambient Home View</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;500&family=JetBrains+Mono:wght@100;200;300;400;500&family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Archivo+Narrow:wght@400;500;600;700&display=swap"
+  />
+
+  <link rel="stylesheet" href="/styles/tokens.css" />
+  <link rel="stylesheet" href="/styles/base.css" />
+  <link rel="stylesheet" href="/styles/splash.css" />
+  <link rel="stylesheet" href="/styles/frame.css" />
+  <link rel="stylesheet" href="/styles/dock.css" />
+  <link rel="stylesheet" href="/styles/settings.css" />
+  <link rel="stylesheet" href="/styles/home.css" />
+  <link rel="stylesheet" href="/styles/prayer.css" />
+  <link rel="stylesheet" href="/styles/quran.css" />
+  <link rel="stylesheet" href="/styles/quotes.css" />
+  <link rel="stylesheet" href="/styles/wisdom.css" />
+  <link rel="stylesheet" href="/styles/world.css" />
+  <link rel="stylesheet" href="/styles/photos.css" />
+  <link rel="stylesheet" href="/styles/weather-fx.css" />
+  <link rel="stylesheet" href="/styles/ambient-fx.css" />
+
+</head>
+<body>
+  <!-- A 480ms calm fade-in — the surface is ambient from the first frame. -->
+  <div id="splash" class="splash" aria-hidden="true">
+    <div class="splash-mark-only">
+      <span class="mark-dot"></span>
+    </div>
+  </div>
+
+  <!-- App shell -->
+  <div id="app" class="portal-app">
+
+    <main class="stage">
+
+      <!-- HOME = hero clock + weather FX + ambient overlays -->
+      <section class="frame frame-root active" id="frame-home" data-frame="home" data-text-side="left">
+        <div class="frame-bg">
+          <div class="bg-layer" id="homeBgA"></div>
+          <div class="bg-layer" id="homeBgB"></div>
+        </div>
+        <div class="frame-scrim"></div>
+        <canvas id="weatherCanvas" aria-hidden="true"></canvas>
+        <div class="ambient-layer" id="ambientLayer" aria-hidden="true"></div>
+        <div class="frame-content">
+          <div class="home-layout" aria-label="Time and weather">
+            <div class="home-time-main tabular" id="homeTimeMain" aria-label="Current time">
+              <span id="homeTimeHour">--</span><span class="home-time-colon" id="homeTimeColon" aria-hidden="true">:</span><span id="homeTimeMinute">--</span><small class="home-time-period" id="homeTimePeriod"></small>
+            </div>
+
+            <div class="home-loc-clock" id="homeLocation" aria-label="Wallpaper location and local time">
+              <div class="loc-place" id="homeLocPlace"></div>
+              <div class="loc-time tabular" id="homeLocTime"></div>
+              <div class="loc-meta" id="homeLocMeta"></div>
+            </div>
+
+            <div class="home-whisper-strip">
+              <div class="home-wisdom" id="homeWisdom" aria-label="Daily wisdom and ayah" title="Tap for next quote or ayah"></div>
+              <div class="home-next-prayer tabular" id="homeNextPrayer" aria-label="Next prayer time"></div>
+            </div>
+
+            <div class="home-bottom-deck">
+              <div class="home-deck-col home-deck-date">
+                <div class="home-date-full tabular" id="homeDateFull">—</div>
+                <div class="home-hijri-full tabular" id="homeHijriFull">—</div>
+              </div>
+              <div class="home-deck-col home-deck-wx">
+                <div class="home-now-cell" id="homeNowCell" aria-label="Current conditions"></div>
+              </div>
+              <div class="home-deck-col home-deck-hours">
+                <div class="home-now-precip tabular" id="homeNowPrecip" aria-label="Hourly forecast"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRAYER -->
+      <section class="frame frame-root" id="frame-prayer" data-frame="prayer" data-text-side="left">
+        <div class="frame-bg">
+          <div class="bg-layer" id="prayerBgA"></div>
+          <div class="bg-layer" id="prayerBgB"></div>
+        </div>
+        <div class="frame-scrim"></div>
+        <div class="frame-content">
+          <div class="prayer-stage">
+            <div class="prayer-hero">
+              <div class="prayer-now tabular" id="prayerNow" aria-label="Current time">
+                <span id="prayerNowTime">—</span>
+              </div>
+              <div class="prayer-eyebrow">Next prayer</div>
+              <div class="prayer-next-name" id="prayerNextName">—</div>
+              <div class="prayer-countdown-big tabular" id="prayerCountdown">
+                <span id="prayerCountdownText">—</span>
+              </div>
+              <div class="prayer-meta">
+                <span class="prayer-date" id="prayerGreg">—</span>
+                <span class="prayer-hijri" id="prayerHijri">—</span>
+              </div>
+              <div class="prayer-wisdom" id="prayerWisdom" aria-label="Ayah of today" title="Tap for next ayah or wisdom"></div>
+            </div>
+            <div class="prayer-list-wrap">
+              <div class="prayer-list" id="prayerList"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORLD -->
+      <section class="frame frame-root" id="frame-world" data-frame="world">
+        <div class="frame-content">
+          <div class="world-stage">
+            <div class="world-eyebrow">
+              <span>World clocks</span>
+              <span class="home-time" id="worldLocalLabel">—</span>
+            </div>
+            <div class="world-grid" id="worldGrid"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHOTOS -->
+      <section class="frame frame-root" id="frame-photos" data-frame="photos">
+        <div class="photos-stage" id="photosStage"></div>
+      </section>
+
+    </main>
+
+    <!-- Subtle bottom-left credit pill -->
+    <div id="frameCredit" class="frame-credit" aria-hidden="true"></div>
+
+    <!-- Reveal hot-zone for dock -->
+    <div id="bottomRevealZone" class="bottom-reveal-zone" aria-hidden="true"></div>
+
+    <!-- DOCK: 6 buttons. Auto-hide after 6s. -->
+    <nav class="portal-dock" id="portalDock" aria-label="Portal controls">
+      <div class="dock-surface">
+        <div class="dock-section dock-section--left">
+          <button type="button" class="dock-button" id="dockHomeBtn" data-frame="home" aria-label="Home">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 10.5 12 3l9 7.5"/>
+              <path d="M5 9.8V21h14V9.8"/>
+              <path d="M9.5 21v-7h5v7"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="dock-section dock-section--center">
+          <div class="dock-frame-title" id="dockFrameTitle" role="status" aria-live="polite" aria-atomic="true" aria-hidden="true"></div>
+          <div class="dock-nav" id="dockNav"></div>
+        </div>
+
+        <div class="dock-section dock-section--right">
+          <div class="dock-status">
+            <span class="dock-status-time tabular" id="dockTime">—</span>
+            <span class="dock-status-weather" id="dockWeather">—</span>
+          </div>
+          <button type="button" class="dock-button" id="fullscreenBtn" hidden aria-label="Full screen" title="Full screen">
+            <svg class="icon-full" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+            <svg class="icon-exit" hidden viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
+          </button>
+          <button type="button" class="dock-button" id="settingsBtn" aria-label="Settings">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.64 1.64 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.64 1.64 0 0 0-1.82-.33 1.64 1.64 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.64 1.64 0 0 0 9 19.4a1.64 1.64 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.64 1.64 0 0 0 4.68 15a1.64 1.64 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.64 1.64 0 0 0 4.6 9a1.64 1.64 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.64 1.64 0 0 0 9 4.68a1.64 1.64 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.64 1.64 0 0 0 1 1.51 1.64 1.64 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.64 1.64 0 0 0 19.4 9a1.64 1.64 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.64 1.64 0 0 0-1.51 1z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SETTINGS -->
+    <div class="settings-sheet" id="settingsSheet">
+      <div class="settings-backdrop" id="settingsBackdrop"></div>
+      <div class="settings-panel">
+        <div class="settings-view" data-view="main">
+        <h3>Settings</h3>
+        <div class="settings-row">
+          <div>
+            <strong>Overlay effects</strong>
+            <span class="row-desc">Weather particles like rain, snow &amp; falling leaves.</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsOverlayFxBtn" data-pref="overlayFx">On</button>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>Lite mode</strong>
+            <span class="row-desc">Home screen only · smooth TV performance.</span>
+          </div>
+          <button type="button" class="settings-action muted" id="settingsLiteModeBtn" data-pref="liteMode">Off</button>
+        </div>
+        <div class="settings-row" data-full-only="true">
+          <div>
+            <strong>Photos slideshow</strong>
+            <span class="row-desc" id="settingsPhotosDesc">Syncs from your shared Google Drive folder.</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsScanBtn">Scan Drive</button>
+        </div>
+        <div class="settings-row" data-full-only="true">
+          <div>
+            <strong>Page rotation</strong>
+            <span class="row-desc">Briefly previews other pages from the main clock.</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsPageRotateBtn" data-pref="pageRotation">On</button>
+        </div>
+        <div class="settings-row" data-full-only="true">
+          <div>
+            <strong>Slideshow motion</strong>
+            <span class="row-desc">Slow Ken Burns pan &amp; zoom on photos.</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsKenBurnsBtn" data-pref="kenBurns">On</button>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>Night dimming</strong>
+            <span class="row-desc">Softens the screen late at night.</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsNightDimBtn" data-pref="nightDim">On</button>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>Theme</strong>
+            <span class="row-desc">Solar-driven · adjusts automatically.</span>
+          </div>
+          <span class="row-meta" id="settingsThemeLabel">Auto</span>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>Prayer times</strong>
+            <span class="row-desc" id="settingsPrayerDesc">Auto · by region</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsPrayerBtn">Method</button>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>Credits</strong>
+            <span class="row-desc" id="settingsWallpaperDesc">—</span>
+            <span class="row-desc">Weather by Open-Meteo.com · Prayer times by Aladhan.com</span>
+          </div>
+        </div>
+        <div class="settings-footer">
+          <div class="settings-footer-left">
+            <span class="row-meta" id="settingsVersion">—</span>
+            <span class="row-meta settings-uptime" id="settingsUptime" aria-live="off">—</span>
+          </div>
+          <button type="button" class="settings-action" id="settingsCloseBtn">Close</button>
+        </div>
+        </div>
+
+        <!-- Prayer calculation sub-view -->
+        <div class="settings-view" data-view="prayer">
+          <h3>Prayer calculation</h3>
+          <label class="settings-field">
+            <span>Method</span>
+            <select id="prayerMethodSelect" aria-label="Calculation method"></select>
+          </label>
+          <label class="settings-field">
+            <span>Asr · madhab</span>
+            <select id="prayerSchoolSelect" aria-label="Asr juristic school"></select>
+          </label>
+          <label class="settings-field">
+            <span>High latitudes</span>
+            <select id="prayerLatSelect" aria-label="High-latitude rule"></select>
+          </label>
+          <div class="settings-footer">
+            <span class="row-meta settings-resolved" id="settingsPrayerResolved"></span>
+            <button type="button" class="settings-action" id="settingsPrayerBackBtn">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Night-dimming veil — above everything, never interactive. -->
+  <div id="dimOverlay" aria-hidden="true"></div>
+
+  <script type="module" src="/scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* Resets and base body */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-ui);
+  font-size: var(--t-body);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--text);
+  background: var(--bg-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+  transition: background-color 1.6s var(--ease-in-out);
+}
+
+html.cursor-hidden,
+html.cursor-hidden * {
+  cursor: none !important;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Top-level app shell */
+#app {
+  position: relative;
+  /* Overscan bleed for burn-in pixel-shift: display-care.js translates the
+     surface ±1px every 90s. With #app sized exactly to the viewport that drift
+     exposes the theme background as a hairline at the trailing edge — a cream
+     line in light/golden theme over a dark wallpaper (the reported "white
+     border"). Bleeding by --app-bleed on every side (the body flex-centers the
+     surplus and clips it) keeps the viewport fully covered through the shift. */
+  width: calc(100vw + var(--app-bleed) * 2);
+  height: calc(100vh + var(--app-bleed) * 2);
+  /* Mobile browsers: 100vh is the viewport with the address bar hidden, but a
+     non-scrolling page never hides it, so the surplus got flex-centred out of
+     view (clock clipped at top, dock under the toolbar). dvh tracks what is
+     actually visible; browsers without it keep the vh line above. */
+  height: calc(100dvh + var(--app-bleed) * 2);
+  flex-shrink: 0; /* body is a flex container — don't let it shrink away the bleed */
+  display: none;
+  overflow: hidden;
+  background: var(--bg-base);
+}
+
+#app.shown {
+  display: block;
+}
+
+/* Night-dimming veil (driven by scripts/display-care.js) */
+#dimOverlay {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9000;
+  transition: opacity 8s linear;
+}
+
+.stage {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-frame);
+}
+
+.bottom-reveal-zone {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 28px;
+  z-index: calc(var(--z-dock) - 1);
+}
+
+/* Hero/display class — used by clock and prayer countdown */
+.tabular {
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Visually-hidden helper for a11y */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Prefer-reduced-motion: disable transitions */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

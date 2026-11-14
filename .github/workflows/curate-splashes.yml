@@ -1,0 +1,63 @@
+name: Daily splash refresh
+
+on:
+  schedule:
+    # 07:13 UTC daily — off-peak, well clear of midnight GitHub spikes.
+    - cron: "13 7 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: curate-splashes
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          # Need a writeable token so we can push the manifest commit back.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Curate splash manifest
+        # Keys are scoped to this step so dependency install scripts never see them.
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          SMITHSONIAN_API_KEY: ${{ secrets.SMITHSONIAN_API_KEY }}
+          RIJKSMUSEUM_API_KEY: ${{ secrets.RIJKSMUSEUM_API_KEY }}
+        run: npm run curate:splash
+
+      - name: Commit refreshed manifest
+        run: |
+          git add public/data/splash-manifest.json
+          if git diff --cached --quiet; then
+            echo "No manifest changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # NOTE: no [skip ci] — hosts honour that token and would skip the
+          # deploy, freezing the live manifest so wallpapers never rotate.
+          # This workflow is schedule/dispatch-only (never push-triggered), so
+          # a plain message can't self-loop; the redeploy ships the wallpapers.
+          git commit -m "chore: daily splash refresh"
+          # Rebase onto any commits that landed while curation ran (the manifest
+          # is merge=binary, and other commits don't touch it, so this stays
+          # clean) — then push so the deploy actually ships.
+          git pull --rebase origin main
+          git push

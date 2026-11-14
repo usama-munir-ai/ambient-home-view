@@ -1,0 +1,5 @@
+# Never let git text-merge the generated manifest — a conflicted merge once
+# shipped <<<<<<< markers inside it, corrupting the JSON and blanking every
+# splash background. Binary merge keeps "ours" and forces a deliberate
+# regeneration instead.
+public/data/splash-manifest.json merge=binary

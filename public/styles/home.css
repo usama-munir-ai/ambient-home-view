@@ -1,0 +1,402 @@
+/* =====================================================================
+   Home frame — Swiss Grotesk (Option B3) tuned for 20-foot ambient viewing.
+   Target viewport: 512×300 CSS px (Facebook Portal 10 Gen 2 @ 2.5 DPR).
+   Pure white (#ffffff) and luminous shades of white only.
+   ===================================================================== */
+
+#frame-home .frame-content {
+  padding: 0;
+}
+
+.home-layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-family: var(--font-swiss);
+}
+
+/* ── Shared Hero Clock (Top-Left) ── */
+.home-time-main {
+  position: absolute;
+  left: 16px;
+  top: 10px;
+  display: inline-block;
+  font: 700 124px/0.80 var(--font-swiss);
+  letter-spacing: -0.055em;
+  color: #ffffff;
+  text-shadow: 0 3px 26px rgba(0, 0, 0, 0.38), 0 1px 3px rgba(0, 0, 0, 0.28);
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+
+.home-time-colon {
+  display: inline;
+  color: #ffffff;
+}
+
+.home-time-period {
+  font: 700 16px/1 var(--font-swiss);
+  letter-spacing: 0.05em;
+  margin-left: 6px;
+  vertical-align: top;
+  position: relative;
+  top: 5px;
+  color: rgba(255, 255, 255, 0.90);
+}
+
+/* ── Live Wallpaper Location Clock (Top-Right) ── */
+.home-loc-clock {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  text-align: right;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.52), 0 1px 2px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+.home-loc-clock:empty,
+.loc-place:empty {
+  display: none;
+}
+
+.loc-place {
+  font: 700 10px/1.1 var(--font-swiss);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+}
+
+.loc-time {
+  margin-top: 3px;
+  font: 700 28px/0.95 var(--font-swiss);
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+
+.loc-time small {
+  font: 700 13px/1 var(--font-swiss);
+  letter-spacing: 0.04em;
+  margin-left: 3px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.loc-meta {
+  margin-top: 4px;
+  font: 500 10.5px/1 var(--font-swiss);
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.80);
+  white-space: nowrap;
+}
+
+/* ── Whisper Strip Above Hairline Rule (Ayah + Next Prayer Pill) ── */
+.home-whisper-strip {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65), 0 1px 2px rgba(0, 0, 0, 0.45);
+  transition: opacity 220ms var(--ease-out), transform 260ms var(--ease-out);
+}
+
+.home-wisdom {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+
+.home-wisdom:empty {
+  display: none;
+}
+
+.home-wisdom-text {
+  font: italic 500 12.5px/1.15 var(--font-swiss);
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.home-wisdom-cite {
+  flex-shrink: 0;
+  font: 700 9px/1 var(--font-swiss);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.78);
+  white-space: nowrap;
+}
+
+.home-next-prayer {
+  flex-shrink: 0;
+  font: 700 10px/1 var(--font-swiss);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 4px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.home-next-prayer:empty {
+  display: none;
+}
+
+.lite-mode .home-next-prayer {
+  background: rgba(14, 18, 26, 0.56);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* ── Enlarged 3-Column Bottom Deck ── */
+.home-bottom-deck {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 12px;
+  display: grid;
+  grid-template-columns: 134px 186px 1fr;
+  align-items: center;
+  border-top: 1.25px solid rgba(255, 255, 255, 0.62);
+  padding-top: 8px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55), 0 1px 2px rgba(0, 0, 0, 0.35);
+  transition: opacity 220ms var(--ease-out), transform 260ms var(--ease-out);
+}
+
+.home-deck-col {
+  min-width: 0;
+  padding-right: 10px;
+}
+
+.home-deck-col:last-child {
+  padding-right: 0;
+}
+
+.home-deck-col + .home-deck-col {
+  padding-left: 12px;
+  border-left: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+/* Column 1: Enlarged Date + Hijri */
+.home-date-full {
+  font: 700 26px/0.98 var(--font-swiss);
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-hijri-full {
+  margin-top: 4px;
+  font: 500 13.5px/1.1 var(--font-swiss);
+  letter-spacing: -0.005em;
+  color: rgba(255, 255, 255, 0.84);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Column 2: Current Weather */
+.home-now-cell {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+
+.home-now-cell-icon,
+.home-now-cell-icon svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.home-now-cell-temp {
+  font: 700 45px/0.86 var(--font-swiss);
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+
+.home-now-cell-deg {
+  font-size: 28px;
+  vertical-align: top;
+  position: relative;
+  top: 1px;
+  margin-left: 1px;
+}
+
+.home-now-cell-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.home-now-cell-cond {
+  font: 600 13px/1 var(--font-swiss);
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.home-now-cell-hilo {
+  font: 600 12.5px/1 var(--font-swiss);
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.84);
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+
+/* Column 3: 5-Hour Forecast Strip */
+.home-now-precip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2px;
+  min-width: 0;
+}
+
+.home-hour-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.home-hour-temp {
+  font: 700 15.5px/1 var(--font-swiss);
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+
+.home-hour-label {
+  font: 600 9.5px/1 var(--font-swiss);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.76);
+  white-space: nowrap;
+}
+
+/* When the dock is raised, gently lift the bottom deck & whisper strip so nothing collides */
+#app.dock-visible .home-bottom-deck,
+#app.dock-visible .home-whisper-strip {
+  transform: translateY(-34px);
+}
+
+/* ── Portrait (phone / tablet held upright) ──
+   The viewport meta pins width to 512 logical px, so portrait is 512 wide and
+   680–1200 tall. Landscape keeps its absolute layout untouched; here the same
+   blocks re-flow into a grid: clock, then date beside the location clock at the
+   top; wisdom + prayer pill, then weather over a shared hairline at the bottom.
+   The middle row stretches so the wallpaper stays open. */
+@media (orientation: portrait) {
+  .home-layout {
+    display: grid;
+    grid-template-columns: 186px minmax(0, 1fr);
+    grid-template-rows: auto auto minmax(0, 1fr) auto auto;
+    grid-template-areas:
+      "time time"
+      "date loc"
+      ". ."
+      "whisper whisper"
+      "wx hours";
+    padding: calc(12px + var(--safe-top)) 16px calc(12px + var(--safe-bottom));
+    transition: padding-bottom 260ms var(--ease-out);
+  }
+
+  .home-time-main {
+    grid-area: time;
+    position: static;
+    display: block;
+  }
+
+  .home-loc-clock {
+    grid-area: loc;
+    position: static;
+    align-self: start;
+    margin-top: 8px;
+  }
+
+  .home-whisper-strip {
+    grid-area: whisper;
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .home-wisdom {
+    flex-wrap: wrap;
+  }
+
+  .home-wisdom-text {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.25;
+  }
+
+  /* Lift the deck's three columns into the layout grid. Inherited text-shadow
+     still flows through the display:contents box. */
+  .home-bottom-deck {
+    display: contents;
+  }
+
+  .home-deck-date {
+    grid-area: date;
+    align-self: start;
+    margin-top: 8px;
+  }
+
+  .home-deck-wx,
+  .home-deck-hours {
+    border-top: 1.25px solid rgba(255, 255, 255, 0.62);
+    padding-top: 10px;
+  }
+
+  .home-deck-wx {
+    grid-area: wx;
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .home-deck-hours {
+    grid-area: hours;
+  }
+
+  /* No absolute deck to lift in portrait — make room for the dock with padding. */
+  #app.dock-visible .home-bottom-deck,
+  #app.dock-visible .home-whisper-strip {
+    transform: none;
+  }
+
+  #app.dock-visible .home-layout {
+    padding-bottom: calc(12px + var(--safe-bottom) + 38px);
+  }
+}

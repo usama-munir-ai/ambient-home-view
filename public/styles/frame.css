@@ -1,0 +1,212 @@
+/* Generic frame container + splash background plumbing */
+
+.frame {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-frame);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 420ms var(--ease-out),
+    visibility 0s linear 420ms,
+    transform 480ms var(--ease-out);
+  transform: scale(1.008);
+}
+
+.frame.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+  /* Incoming frame waits ~140ms so the outgoing one fades first — reads as a
+     cross-dissolve instead of a double exposure. */
+  transition-delay: 140ms, 0s, 140ms;
+}
+
+.lite-mode .frame:not(#frame-home) {
+  display: none !important;
+}
+
+/* The dual-layer background photo system. Layer A and Layer B
+   cross-fade between curated images via /scripts/media/curator.js. */
+.frame-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--bg-base);
+}
+
+.bg-layer {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity var(--dur-splash) var(--ease-in-out);
+}
+
+.bg-layer.visible {
+  opacity: 1;
+}
+
+/* Theme-aware scrim overlay — keeps text readable over any image. */
+.frame-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, var(--scrim-top) 0%, transparent 35%, var(--scrim-bottom) 100%);
+}
+
+/* Side scrim — the text-protection layer behind the floating widgets.
+   Its colour/strength is computed per-wallpaper by typography.js
+   (--splash-scrim-color/-soft already bake in dark-vs-light and the exact
+   alpha needed to clear the WCAG contrast target over the quiet region).
+   Falls back to a neutral dark wash before the first adapt. */
+.frame[data-text-side="left"] .frame-scrim {
+  background:
+    linear-gradient(180deg, var(--scrim-top) 0%, transparent 35%, var(--scrim-bottom) 100%),
+    linear-gradient(90deg,
+      var(--splash-scrim-color, rgba(0, 0, 0, 0.5)) 0%,
+      var(--splash-scrim-soft, rgba(0, 0, 0, 0.2)) 34%,
+      transparent 64%);
+}
+
+.frame[data-text-side="right"] .frame-scrim {
+  background:
+    linear-gradient(180deg, var(--scrim-top) 0%, transparent 35%, var(--scrim-bottom) 100%),
+    linear-gradient(270deg,
+      var(--splash-scrim-color, rgba(0, 0, 0, 0.5)) 0%,
+      var(--splash-scrim-soft, rgba(0, 0, 0, 0.2)) 34%,
+      transparent 64%);
+}
+
+/* Home uses subtle corner + bottom protection so pure-white Swiss Grotesk type
+   pops over any sky or water while keeping the center panorama 100% open. */
+#frame-home .frame-scrim,
+#frame-home[data-text-side="left"] .frame-scrim,
+#frame-home[data-text-side="right"] .frame-scrim {
+  background:
+    radial-gradient(65% 55% at 18% 18%, rgba(6, 14, 26, 0.36) 0%, transparent 100%),
+    radial-gradient(45% 42% at 88% 14%, rgba(6, 14, 26, 0.42) 0%, transparent 100%),
+    linear-gradient(180deg, rgba(6, 12, 22, 0.22) 0%, transparent 34%, transparent 54%, rgba(4, 10, 18, 0.74) 100%);
+}
+
+#frame-prayer[data-text-side="left"] .frame-scrim {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.28) 0%, transparent 38%, rgba(0, 0, 0, 0.48) 100%),
+    linear-gradient(90deg,
+      var(--splash-scrim-color, rgba(0, 0, 0, 0.52)) 0%,
+      var(--splash-scrim-soft, rgba(0, 0, 0, 0.24)) 42%,
+      transparent 72%);
+}
+
+#frame-prayer[data-text-side="right"] .frame-scrim {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.28) 0%, transparent 38%, rgba(0, 0, 0, 0.48) 100%),
+    linear-gradient(270deg,
+      var(--splash-scrim-color, rgba(0, 0, 0, 0.52)) 0%,
+      var(--splash-scrim-soft, rgba(0, 0, 0, 0.24)) 42%,
+      transparent 72%);
+}
+
+.frame-content {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-content);
+  padding: var(--frame-padding) var(--frame-padding) calc(var(--dock-height) + 8px);
+  display: flex;
+  align-items: stretch;
+}
+
+/* Credit pill — sits on the side opposite the content text, so it never
+   competes with the editorial composition. Always whisper-quiet.
+   Pinned just above the dock so it never gets occluded. */
+.frame-credit {
+  position: absolute;
+  right: 14px;
+  bottom: calc(var(--dock-height) + var(--safe-bottom) + 10px);
+  z-index: var(--z-credit);
+  font-size: 8px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(252, 250, 244, 0.62);
+  background: rgba(0, 0, 0, 0.32);
+  padding: 3px 7px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 480ms var(--ease-out);
+  max-width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.frame-credit.visible {
+  opacity: 0.78;
+}
+
+/* On home, the hero meta already names the place — credit would compete. */
+.frame-credit[data-frame="home"] {
+  opacity: 0;
+}
+
+/* When text sits on the right, swap the credit to the left. */
+.frame[data-text-side="right"].active ~ #frameCredit,
+#app:has(.frame[data-text-side="right"].active) .frame-credit {
+  right: auto;
+  left: 14px;
+}
+
+/* Glass-card baseline used by a few panels */
+.glass {
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(20px) saturate(1.15);
+  -webkit-backdrop-filter: blur(20px) saturate(1.15);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* =====================================================================
+   HOME FRAME — warm ambient surface, curated wallpaper enabled.
+   Ambient layer and weather canvas composite above this base.
+   ===================================================================== */
+#frame-home,
+#frame-prayer {
+  /* Heavier shadow so text survives any wallpaper, including light/busy ones. */
+  --splash-shadow: 0 2px 22px rgba(0, 0, 0, 0.82), 0 1px 3px rgba(0, 0, 0, 0.68);
+}
+
+#frame-home .frame-bg {
+  background:
+    radial-gradient(120% 90% at 18% 12%, rgba(247, 165, 32, 0.10) 0%, transparent 55%),
+    radial-gradient(110% 90% at 80% 80%, rgba(216, 180, 106, 0.08) 0%, transparent 60%),
+    linear-gradient(180deg, #1a120a 0%, #0a0806 100%);
+}
+
+/* Portrait: text sits top and bottom, so protect those bands instead of corners. */
+@media (orientation: portrait) {
+  #frame-home .frame-scrim,
+  #frame-home[data-text-side="left"] .frame-scrim,
+  #frame-home[data-text-side="right"] .frame-scrim {
+    background:
+      linear-gradient(180deg, rgba(6, 12, 22, 0.58) 0%, rgba(6, 12, 22, 0.26) 22%, transparent 40%, transparent 60%, rgba(4, 10, 18, 0.78) 100%);
+  }
+
+  #frame-prayer[data-text-side="left"] .frame-scrim,
+  #frame-prayer[data-text-side="right"] .frame-scrim {
+    background:
+      linear-gradient(180deg,
+        var(--splash-scrim-color, rgba(0, 0, 0, 0.52)) 0%,
+        var(--splash-scrim-soft, rgba(0, 0, 0, 0.24)) 40%,
+        rgba(0, 0, 0, 0.48) 100%);
+  }
+}

@@ -1,0 +1,1152 @@
+{
+  "home": {
+    "name": "Makkah",
+    "shortName": "Makkah",
+    "tz": "Asia/Riyadh",
+    "lat": 21.4225,
+    "lon": 39.8262
+  },
+  "worldCities": [
+    {
+      "key": "istanbul",
+      "name": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "fallback": "https://images.pexels.com/photos/11088144/pexels-photo-11088144.jpeg?auto=compress&cs=tinysrgb&w=3840",
+      "pearl": "Two continents · the Bosphorus runs between them.",
+      "fallbackCredit": "Yasir Gürbüz · Pexels"
+    },
+    {
+      "key": "lahore",
+      "name": "Lahore",
+      "tz": "Asia/Karachi",
+      "lat": 31.5497,
+      "lon": 74.3436,
+      "pearl": "City of gardens · Mughal capital, 1584.",
+      "fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lahore_Fort_Aunzee_35.jpg/1280px-Lahore_Fort_Aunzee_35.jpg",
+      "fallbackCredit": "Aun Muhammad · Wikimedia Commons · CC BY-SA 3.0"
+    },
+    {
+      "key": "new-york",
+      "name": "New York",
+      "tz": "America/New_York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "fallback": "https://images.metmuseum.org/CRDImages/ad/original/ap54.90.32.jpg",
+      "pearl": "The city that named the modern skyline.",
+      "fallbackCredit": "Robert Havell Jr. · \"View of the Bay and City of New York from Weehawken\" · The Met (CC0)"
+    },
+    {
+      "key": "tokyo",
+      "name": "Tokyo",
+      "tz": "Asia/Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "fallback": "https://images.pexels.com/photos/35003990/pexels-photo-35003990.jpeg?auto=compress&cs=tinysrgb&w=3840",
+      "pearl": "Where today often begins for the world.",
+      "fallbackCredit": "Acres of Film · Pexels"
+    },
+    {
+      "key": "cairo",
+      "name": "Cairo",
+      "tz": "Africa/Cairo",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "fallback": "https://images.pexels.com/photos/15126861/pexels-photo-15126861.jpeg?auto=compress&cs=tinysrgb&w=3840",
+      "pearl": "Mother of the world · the Nile shaped time itself.",
+      "fallbackCredit": "Diego F. Parra · Pexels"
+    },
+    {
+      "key": "paris",
+      "name": "Paris",
+      "tz": "Europe/Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "pearl": "Lumière · the city set the standard for evenings.",
+      "fallback": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Dent_de_Vaulion_-_360_degree_panorama.jpg/1280px-Dent_de_Vaulion_-_360_degree_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackCredit": "Alexandre Duret-Lutz from Paris, France · Wikimedia Commons · CC BY-SA 2.0"
+    },
+    {
+      "key": "hong-kong",
+      "name": "Hong Kong",
+      "tz": "Asia/Hong_Kong",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "fallback": "https://images.pexels.com/photos/15172659/pexels-photo-15172659.jpeg?auto=compress&cs=tinysrgb&w=3840",
+      "pearl": "Pearl of the Orient · skyline taller than Manhattan.",
+      "fallbackCredit": "Jacky Chiu · Pexels"
+    },
+    {
+      "key": "los-angeles",
+      "name": "Los Angeles",
+      "tz": "America/Los_Angeles",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "pearl": "Light-chaser · evening here is morning at home.",
+      "fallback": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg/1280px-Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackCredit": "sam garza from Los Angeles, USA · Wikimedia Commons · CC BY 2.0"
+    },
+    {
+      "key": "singapore",
+      "name": "Singapore",
+      "tz": "Asia/Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "pearl": "Equator city · the year barely changes the daylight.",
+      "fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/1_singapore_national_day_parade_2011_fireworks.jpg/1280px-1_singapore_national_day_parade_2011_fireworks.jpg",
+      "fallbackCredit": "chensiyuan · Wikimedia Commons · CC BY-SA 4.0"
+    },
+    {
+      "key": "budapest",
+      "name": "Budapest",
+      "tz": "Europe/Budapest",
+      "lat": 47.4979,
+      "lon": 19.0402,
+      "fallback": "https://images.pexels.com/photos/19310797/pexels-photo-19310797.jpeg?auto=compress&cs=tinysrgb&w=3840",
+      "pearl": "Two cities · Buda and Pest, joined in 1873.",
+      "fallbackCredit": "Andrea Imre · Pexels"
+    },
+    {
+      "key": "washington-dc",
+      "name": "Washington DC",
+      "tz": "America/New_York",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "pearl": "The capital · monuments along the Potomac."
+    },
+    {
+      "key": "dubai",
+      "name": "Dubai",
+      "tz": "Asia/Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "pearl": "Risen from the desert in a generation."
+    },
+    {
+      "key": "sydney",
+      "name": "Sydney",
+      "tz": "Australia/Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "pearl": "Southern summer · seasons run upside down."
+    },
+    {
+      "key": "mumbai",
+      "name": "Mumbai",
+      "tz": "Asia/Kolkata",
+      "lat": 19.076,
+      "lon": 72.8777,
+      "pearl": "India keeps a single timezone, IST · UTC+5:30."
+    },
+    {
+      "key": "beijing",
+      "name": "Beijing",
+      "tz": "Asia/Shanghai",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "pearl": "All of China runs on a single time, UTC+8."
+    }
+  ],
+  "worldTerms": {
+    "local": [
+      "city skyline dawn",
+      "city skyline river sunrise",
+      "modern skyline golden hour",
+      "downtown skyline twilight"
+    ],
+    "lahore": [
+      "lahore badshahi mosque skyline",
+      "lahore fort sunset",
+      "lahore minar-e-pakistan dawn",
+      "lahore landmark skyline"
+    ],
+    "istanbul": [
+      "istanbul hagia sophia skyline",
+      "istanbul bosphorus landmark",
+      "istanbul blue mosque twilight",
+      "istanbul galata dusk"
+    ],
+    "los-angeles": [
+      "los angeles skyline dusk",
+      "los angeles downtown panorama",
+      "santa monica sunset",
+      "hollywood hills dawn"
+    ],
+    "london": [
+      "london skyline tower bridge",
+      "london cityscape dusk",
+      "london eye sunset",
+      "big ben london twilight"
+    ],
+    "new-york": [
+      "new york skyline sunset",
+      "manhattan skyline dusk",
+      "brooklyn bridge sunset",
+      "empire state skyline dawn"
+    ],
+    "tokyo": [
+      "tokyo skyline night",
+      "tokyo tower dusk",
+      "shibuya neon night",
+      "tokyo skyline with mount fuji"
+    ],
+    "sydney": [
+      "sydney opera house sunset",
+      "sydney harbour dusk",
+      "sydney bridge dawn",
+      "sydney skyline harbour lights"
+    ],
+    "dubai": [
+      "dubai skyline sunset",
+      "burj khalifa dusk",
+      "dubai marina night",
+      "dubai landmark skyline"
+    ],
+    "paris": [
+      "eiffel tower sunset",
+      "paris skyline dusk",
+      "seine river evening",
+      "paris city lights"
+    ],
+    "singapore": [
+      "marina bay sands sunset",
+      "singapore skyline dusk",
+      "gardens by the bay night",
+      "singapore bay twilight"
+    ],
+    "hong-kong": [
+      "hong kong skyline sunset",
+      "victoria harbour dusk",
+      "hong kong peak dusk",
+      "hong kong city lights"
+    ],
+    "budapest": [
+      "budapest parliament dusk",
+      "chain bridge budapest evening",
+      "budapest skyline danube",
+      "budapest city lights night"
+    ],
+    "mumbai": [
+      "mumbai skyline sunset",
+      "gateway of india dusk",
+      "marine drive dusk",
+      "mumbai harbour evening"
+    ],
+    "beijing": [
+      "beijing skyline sunset",
+      "temple of heaven dusk",
+      "beijing city lights",
+      "beijing landmark skyline"
+    ],
+    "cairo": [
+      "cairo skyline sunset",
+      "pyramids dusk",
+      "nile river cairo evening",
+      "cairo landmark skyline"
+    ]
+  },
+  "surahContext": {
+    "Ar-Ra'd": "Surah Ar-Ra'd · 'The Thunder' · Meccan; on certainty in the unseen and the steadiness of remembrance.",
+    "Az-Zumar": "Surah Az-Zumar · 'The Throngs' · Meccan; despair-not, and the door of mercy is wider than wrong.",
+    "At-Talaaq": "Surah At-Talaaq · 'Divorce' · Medinan; on tawakkul and provision arriving from unseen quarters.",
+    "Ash-Sharh": "Surah Ash-Sharh · 'The Relief' · Meccan; with hardship, ease — twice promised in three lines.",
+    "Al-Baqara": "Surah Al-Baqara · 'The Cow' · Medinan, the Qur'an's longest chapter; closes on a prayer for forgiveness and aid.",
+    "Aal-i-Imraan": "Surah Aal-i-Imraan · 'Family of Imran' · Medinan; courage in a fragile season.",
+    "Al-Anfaal": "Surah Al-Anfaal · 'The Spoils' · Medinan; obedience, unity, and patience as a discipline.",
+    "Quran": "From the Holy Qur'an · revealed to Muhammad ﷺ over 23 years (610–632 CE)."
+  },
+  "frameMedia": {
+    "home": [],
+    "worldBackdrop": [],
+    "prayer": [],
+    "quran": [],
+    "cal": [],
+    "quotes": {
+      "hopeful": [],
+      "resilient": [],
+      "contemplative": [],
+      "expansive": [],
+      "grounded": [],
+      "sacred": []
+    },
+    "clock": {
+      "clear-cold": [],
+      "clear-warm": [],
+      "heat": [],
+      "partly-cloudy": [],
+      "overcast": [],
+      "fog": [],
+      "drizzle": [],
+      "rain-steady": [],
+      "rain-torrential": [],
+      "snow-light": [],
+      "snow-heavy": [],
+      "thunderstorm": []
+    }
+  },
+  "frameTerms": {
+    "home": [
+      "skyline twilight featured",
+      "aerial city blue hour",
+      "mountain ridge golden hour",
+      "fog over city dawn",
+      "earth from orbit"
+    ],
+    "worldBackdrop": [
+      "skyline twilight panorama",
+      "city lights river",
+      "wide architectural skyline",
+      "blue hour cityscape"
+    ],
+    "prayer": [
+      "mosque dawn featured",
+      "blue mosque interior",
+      "alhambra arches light",
+      "courtyard mosque sunrise",
+      "minaret silhouette dusk"
+    ],
+    "quran": [
+      "kufic calligraphy folio",
+      "ornamented quran page",
+      "islamic tile geometry",
+      "muqarnas ceiling close",
+      "illuminated manuscript folio"
+    ],
+    "cal": [
+      "library interior light featured",
+      "reading room daylight",
+      "bookshelves warm interior",
+      "studiolo desk window",
+      "vermeer interior"
+    ],
+    "quotes": {
+      "hopeful": [
+        "sunrise featured wide",
+        "dawn light field",
+        "first light over water",
+        "hudson river school landscape",
+        "golden horizon valley"
+      ],
+      "resilient": [
+        "mountain ridge storm clearing",
+        "ancient stone wide light",
+        "cliffs at sunset",
+        "romantic landscape painting",
+        "dramatic mountain landscape"
+      ],
+      "contemplative": [
+        "misty fjord dawn",
+        "vermeer interior",
+        "dutch landscape painting",
+        "fog over still water",
+        "tonalist landscape"
+      ],
+      "expansive": [
+        "wide vista panorama",
+        "endless horizon ocean",
+        "valley sunrise wide",
+        "earth from orbit",
+        "open sky landscape"
+      ],
+      "grounded": [
+        "still life painting",
+        "chardin still life",
+        "dutch golden age painting",
+        "wheat field summer",
+        "meadow at dusk"
+      ],
+      "sacred": [
+        "sacred architecture light",
+        "stone vault interior light",
+        "mosque architecture dawn",
+        "cathedral nave light",
+        "muqarnas ceiling"
+      ]
+    }
+  },
+  "quoteLibrary": [
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "We suffer from an incurable malady: hope.",
+      "author": "Mahmoud Darwish",
+      "dates": "1941–2008",
+      "source": "A State of Siege"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "Think of others, not only the absent ones.",
+      "author": "Mahmoud Darwish",
+      "dates": "1941–2008",
+      "source": "Think of Others"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "You can cut all the flowers but you cannot keep spring from coming.",
+      "author": "Pablo Neruda",
+      "dates": "1904–1973",
+      "source": ""
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "Raise your words, not voice. It is rain that grows flowers, not thunder.",
+      "author": "Rumi (tr.)",
+      "dates": "1207–1273",
+      "source": "Masnavi"
+    },
+    {
+      "type": "text",
+      "mood": "expansive",
+      "text": "Out beyond ideas of wrongdoing and rightdoing there is a field. I will meet you there.",
+      "author": "Rumi (tr.)",
+      "dates": "1207–1273",
+      "source": "Diwan-e Shams"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Speak, for your lips are yet free.",
+      "author": "Faiz Ahmed Faiz (tr.)",
+      "dates": "1911–1984",
+      "source": "Bol"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "This is not that dawn, that longing for which we had hoped.",
+      "author": "Faiz Ahmed Faiz (tr.)",
+      "dates": "1911–1984",
+      "source": "Subh-e Azadi"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Identity is what we say we are, and what others think we are.",
+      "author": "Edward Said",
+      "dates": "1935–2003",
+      "source": "Orientalism"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "Exile is strangely compelling to think about but terrible to experience.",
+      "author": "Edward Said",
+      "dates": "1935–2003",
+      "source": "Reflections on Exile"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+      "author": "James Baldwin",
+      "dates": "1924–1987",
+      "source": "The Cross of Redemption"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "The classroom remains the most radical space of possibility in the academy.",
+      "author": "bell hooks",
+      "dates": "1952–2021",
+      "source": "Teaching to Transgress"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Until the lions have their historians, tales of hunting will always glorify the hunter.",
+      "author": "Chinua Achebe",
+      "dates": "1930–2013",
+      "source": "African proverb, retold"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "The minute we choose to love we begin to move against domination.",
+      "author": "bell hooks",
+      "dates": "1952–2021",
+      "source": "All About Love"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "They tried to bury us. They did not know we were seeds.",
+      "author": "Dinos Christianopoulos",
+      "dates": "1931–2020",
+      "source": ""
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "We teach life, sir.",
+      "author": "Rafeef Ziadah",
+      "dates": "b. 1979",
+      "source": "We Teach Life, Sir"
+    },
+    {
+      "type": "urdu",
+      "mood": "contemplative",
+      "ur": "دل میں بس اک تمنائی ہے",
+      "ro": "Dil mein bas ek tamanna hai",
+      "en": "Only one longing remains in the heart.",
+      "poetUr": "فیض احمد فیض",
+      "poetEn": "Faiz Ahmad Faiz",
+      "poetDates": "1911–1984",
+      "source": "Mujh Se Pehli Si"
+    },
+    {
+      "type": "urdu",
+      "mood": "contemplative",
+      "ur": "آئینے کی شام میں بس تم",
+      "ro": "Aaine ki shaam mein bas tum",
+      "en": "In the mirror's evening, only you.",
+      "poetUr": "پروین شاکر",
+      "poetEn": "Parveen Shakir",
+      "poetDates": "1952–1994",
+      "source": "Khushbu"
+    },
+    {
+      "type": "urdu",
+      "mood": "grounded",
+      "ur": "خدی کو کر بلند اتنا کہ ہر تقدیر سے پہلے",
+      "ro": "Khudi ko kar buland itna ke har taqdeer se pehle",
+      "en": "Raise the self so high that, before every fate, God Himself asks: tell Me, what would you have?",
+      "poetUr": "علامہ اقبال",
+      "poetEn": "Allama Iqbal",
+      "poetDates": "1877–1938",
+      "source": "Bal-e-Jibreel"
+    },
+    {
+      "type": "urdu",
+      "mood": "contemplative",
+      "ur": "شام ہوتی ہے، سحر ہوتی ہے، یہ بہار ہوتی ہے",
+      "ro": "Shaam hoti hai, sehr hoti hai, ye bahaar hoti hai",
+      "en": "Evenings come, dawns come, and this is what spring is.",
+      "poetUr": "مخدوم محی الدین",
+      "poetEn": "Makhdoom Mohiuddin",
+      "poetDates": "1908–1969",
+      "source": "Phir chhidi raat"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "Hope is the thing with feathers that perches in the soul.",
+      "author": "Emily Dickinson",
+      "dates": "1830–1886",
+      "source": ""
+    },
+    {
+      "type": "text",
+      "mood": "expansive",
+      "text": "I dwell in possibility.",
+      "author": "Emily Dickinson",
+      "dates": "1830–1886",
+      "source": ""
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "There is no charm equal to tenderness of heart.",
+      "author": "Jane Austen",
+      "dates": "1775–1817",
+      "source": "Emma"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "Faith is the bird that feels the light and sings when the dawn is still dark.",
+      "author": "Rabindranath Tagore",
+      "dates": "1861–1941",
+      "source": "Stray Birds"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "If winter comes, can spring be far behind?",
+      "author": "Percy Bysshe Shelley",
+      "dates": "1792–1822",
+      "source": "Ode to the West Wind"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+      "author": "Henry David Thoreau",
+      "dates": "1817–1862",
+      "source": "Walden"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "Patience is also a form of action.",
+      "author": "Auguste Rodin",
+      "dates": "1840–1917",
+      "source": ""
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "What are men to rocks and mountains?",
+      "author": "Jane Austen",
+      "dates": "1775–1817",
+      "source": "Pride and Prejudice"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "The quieter the room, the more clearly the heart can hear itself.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "A steady heart can outlast a loud storm.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "Light returns first to the horizon, then to the room.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "Quiet effort carries farther than hurried noise.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "expansive",
+      "text": "The sky makes room for every honest beginning.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "Mercy often arrives before certainty does.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "sacred",
+      "text": "Some mornings are built for gratitude before language.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Even worn hands can carry tomorrow with dignity.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "A kind word can open a locked morning.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "The road grows clearer to those who keep walking.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "expansive",
+      "text": "The horizon teaches patience by never hurrying toward us.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "Silence is not emptiness; it is a room still filling with meaning.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "What bends with grace often survives with grace.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "Spring begins as a rumor and becomes a landscape.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "sacred",
+      "text": "Reverence is a kind of listening that steadies the whole body.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "The smallest honest task can restore an entire day.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "expansive",
+      "text": "Every open window reminds the room that there is more world outside.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "Not every answer arrives loudly; some of them arrive clear.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "Hope is often built from ordinary acts repeated with courage.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "Dawn keeps its promise by returning one color at a time.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "sacred",
+      "text": "A calm breath can become its own kind of prayer.",
+      "author": "Editorial Library",
+      "dates": "",
+      "source": "Curated rotation"
+    },
+    {
+      "type": "text",
+      "mood": "sacred",
+      "text": "What you seek is seeking you.",
+      "author": "Rumi",
+      "dates": "1207–1273",
+      "source": "Fihi Ma Fihi"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+      "author": "Rumi",
+      "dates": "1207–1273",
+      "source": "Masnavi"
+    },
+    {
+      "type": "text",
+      "mood": "hopeful",
+      "text": "The wound is the place where the Light enters you.",
+      "author": "Rumi",
+      "dates": "1207–1273",
+      "source": "Masnavi"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "Knowledge without action is wastefulness and action without knowledge is foolishness.",
+      "author": "Imam Al-Ghazali",
+      "dates": "1058–1111",
+      "source": "Ayyuha'l-Walad"
+    },
+    {
+      "type": "text",
+      "mood": "sacred",
+      "text": "He who knows himself knows his Lord.",
+      "author": "Ibn Arabi",
+      "dates": "1165–1240",
+      "source": "Futuhat al-Makkiyya"
+    },
+    {
+      "type": "text",
+      "mood": "contemplative",
+      "text": "Perplexity is the beginning of knowledge.",
+      "author": "Khalil Gibran",
+      "dates": "1883–1931",
+      "source": "The Voice of the Master"
+    },
+    {
+      "type": "text",
+      "mood": "grounded",
+      "text": "Generosity is giving more than you can, and pride is taking less than you need.",
+      "author": "Khalil Gibran",
+      "dates": "1883–1931",
+      "source": "Sand and Foam"
+    },
+    {
+      "type": "text",
+      "mood": "resilient",
+      "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+      "author": "Marcus Aurelius",
+      "dates": "121–180",
+      "source": "Meditations"
+    },
+    {
+      "type": "text",
+      "mood": "expansive",
+      "text": "Tell me, what is it you plan to do with your one wild and precious life?",
+      "author": "Mary Oliver",
+      "dates": "1935–2019",
+      "source": "The Summer Day"
+    },
+    {
+      "type": "urdu",
+      "mood": "expansive",
+      "ur": "ستاروں سے آگے جہاں اور بھی ہیں، ابھی عشق کے امتحاں اور بھی ہیں",
+      "ro": "Sitaron se aage jahan aur bhi hain, abhi ishq ke imtihan aur bhi hain",
+      "en": "Beyond the stars there are still other worlds; there are still other trials of love to come.",
+      "poetUr": "علامہ اقبال",
+      "poetEn": "Allama Iqbal",
+      "poetDates": "1877–1938",
+      "source": "Bal-e-Jibreel"
+    },
+    {
+      "type": "urdu",
+      "mood": "contemplative",
+      "ur": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+      "ro": "Hazaron khwahishein aisi ke har khwahish pe dam nikle",
+      "en": "Thousands of desires, each worth dying for — many were fulfilled, yet still too few.",
+      "poetUr": "مرزا غالب",
+      "poetEn": "Mirza Ghalib",
+      "poetDates": "1797–1869",
+      "source": "Diwan-e-Ghalib"
+    },
+    {
+      "type": "urdu",
+      "mood": "hopeful",
+      "ur": "تندیٔ بادِ مخالف سے نہ گھبرا اے عقاب، یہ تو چلتی ہے تجھے اونچا اڑانے کے لیے",
+      "ro": "Tundi-e-baad-e-mukhalif se na ghabra ae uqaab, yeh to chalti hai tujhe ooncha urane ke liye",
+      "en": "Do not fear the fierce headwind, O eagle — it blows only to lift you higher.",
+      "poetUr": "سید صادق حسین",
+      "poetEn": "Sadiq Hussain",
+      "poetDates": "1898–1982",
+      "source": "Selected Couplets"
+    }
+  ],
+  "ayahFallbacks": [
+    {
+      "number": 1735,
+      "numberInSurah": 28,
+      "surah": {
+        "englishName": "Ar-Ra'd"
+      },
+      "text": "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+      "translation": "Those who believe, and whose hearts find rest in the remembrance of Allah. Verily, in the remembrance of Allah do hearts find rest."
+    },
+    {
+      "number": 4111,
+      "numberInSurah": 53,
+      "surah": {
+        "englishName": "Az-Zumar"
+      },
+      "text": "۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "translation": "Say: O My servants who have transgressed against themselves, despair not of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, He is the Forgiving, the Merciful."
+    },
+    {
+      "number": 5220,
+      "numberInSurah": 3,
+      "surah": {
+        "englishName": "At-Talaaq"
+      },
+      "text": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
+      "translation": "And He will provide for him from where he does not expect. And whoever relies upon Allah — then He is sufficient for him."
+    },
+    {
+      "number": 6095,
+      "numberInSurah": 5,
+      "surah": {
+        "englishName": "Ash-Sharh"
+      },
+      "text": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translation": "For indeed, with hardship comes ease."
+    },
+    {
+      "number": 6096,
+      "numberInSurah": 6,
+      "surah": {
+        "englishName": "Ash-Sharh"
+      },
+      "text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translation": "Indeed, with hardship comes ease."
+    },
+    {
+      "number": 293,
+      "numberInSurah": 286,
+      "surah": {
+        "englishName": "Al-Baqara"
+      },
+      "text": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "translation": "Allah does not burden a soul beyond that it can bear."
+    },
+    {
+      "number": 432,
+      "numberInSurah": 139,
+      "surah": {
+        "englishName": "Aal-i-Imraan"
+      },
+      "text": "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ",
+      "translation": "Do not weaken and do not grieve, and you will be superior if you are true believers."
+    },
+    {
+      "number": 1206,
+      "numberInSurah": 46,
+      "surah": {
+        "englishName": "Al-Anfaal"
+      },
+      "text": "وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "translation": "And be patient and steadfast; indeed, Allah is with the patient."
+    },
+    {
+      "number": 159,
+      "numberInSurah": 152,
+      "surah": {
+        "englishName": "Al-Baqara"
+      },
+      "text": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ",
+      "translation": "So remember Me; I will remember you. And be grateful to Me and do not deny Me."
+    },
+    {
+      "number": 160,
+      "numberInSurah": 153,
+      "surah": {
+        "englishName": "Al-Baqara"
+      },
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "translation": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient."
+    },
+    {
+      "number": 193,
+      "numberInSurah": 186,
+      "surah": {
+        "englishName": "Al-Baqara"
+      },
+      "text": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ",
+      "translation": "And when My servants ask you concerning Me — indeed I am near. I respond to the invocation of the supplicant when he calls upon Me."
+    },
+    {
+      "number": 466,
+      "numberInSurah": 173,
+      "surah": {
+        "englishName": "Aal-i-Imraan"
+      },
+      "text": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+      "translation": "Sufficient for us is Allah, and He is the best Disposer of affairs."
+    },
+    {
+      "number": 1757,
+      "numberInSurah": 7,
+      "surah": {
+        "englishName": "Ibrahim"
+      },
+      "text": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+      "translation": "If you are grateful, I will surely increase you in favor."
+    },
+    {
+      "number": 1998,
+      "numberInSurah": 97,
+      "surah": {
+        "englishName": "An-Nahl"
+      },
+      "text": "مَنْ عَمِلَ صَٰلِحًا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَلَنُحْيِيَنَّهُۥ حَيَوٰةً طَيِّبَةً",
+      "translation": "Whoever does righteousness, whether male or female, while a believer — We will surely cause them to live a good and pure life."
+    },
+    {
+      "number": 2150,
+      "numberInSurah": 10,
+      "surah": {
+        "englishName": "Al-Kahf"
+      },
+      "text": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+      "translation": "Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance."
+    },
+    {
+      "number": 2375,
+      "numberInSurah": 25,
+      "surah": {
+        "englishName": "Taha"
+      },
+      "text": "قَالَ رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى",
+      "translation": "My Lord, expand for me my breast with peace, and ease for me my task."
+    },
+    {
+      "number": 2464,
+      "numberInSurah": 114,
+      "surah": {
+        "englishName": "Taha"
+      },
+      "text": "وَقُل رَّبِّ زِدْنِى عِلْمًا",
+      "translation": "And say: My Lord, increase me in knowledge."
+    },
+    {
+      "number": 2570,
+      "numberInSurah": 87,
+      "surah": {
+        "englishName": "Al-Anbiya"
+      },
+      "text": "لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+      "translation": "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers."
+    },
+    {
+      "number": 2826,
+      "numberInSurah": 35,
+      "surah": {
+        "englishName": "An-Nur"
+      },
+      "text": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+      "translation": "Allah is the Light of the heavens and the earth."
+    },
+    {
+      "number": 2917,
+      "numberInSurah": 63,
+      "surah": {
+        "englishName": "Al-Furqan"
+      },
+      "text": "وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "translation": "And the servants of the Most Merciful are those who walk upon the earth easily, and when the ignorant address them harshly, they say words of peace."
+    },
+    {
+      "number": 3339,
+      "numberInSurah": 24,
+      "surah": {
+        "englishName": "Al-Qasas"
+      },
+      "text": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "translation": "My Lord, indeed I am, for whatever good You would send down to me, in need."
+    },
+    {
+      "number": 3408,
+      "numberInSurah": 69,
+      "surah": {
+        "englishName": "Al-Ankabut"
+      },
+      "text": "وَٱلَّذِينَ جَٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ",
+      "translation": "And those who strive for Us — We will surely guide them to Our ways. And indeed, Allah is with the doers of good."
+    },
+    {
+      "number": 3430,
+      "numberInSurah": 21,
+      "surah": {
+        "englishName": "Ar-Rum"
+      },
+      "text": "وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
+      "translation": "And of His signs is that He created for you from yourselves mates that you may find tranquility in them; and He placed between you affection and mercy."
+    },
+    {
+      "number": 4198,
+      "numberInSurah": 60,
+      "surah": {
+        "englishName": "Ghafir"
+      },
+      "text": "وَقَالَ رَبُّكُمُ ٱدْعُونِىٓ أَسْتَجِبْ لَكُمْ",
+      "translation": "And your Lord says: Call upon Me; I will respond to you."
+    },
+    {
+      "number": 4691,
+      "numberInSurah": 16,
+      "surah": {
+        "englishName": "Qaf"
+      },
+      "text": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+      "translation": "And We are closer to him than his jugular vein."
+    },
+    {
+      "number": 4914,
+      "numberInSurah": 13,
+      "surah": {
+        "englishName": "Ar-Rahman"
+      },
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translation": "So which of the favors of your Lord would you deny?"
+    },
+    {
+      "number": 4961,
+      "numberInSurah": 60,
+      "surah": {
+        "englishName": "Ar-Rahman"
+      },
+      "text": "هَلْ جَزَآءُ ٱلْإِحْسَٰنِ إِلَّا ٱلْإِحْسَٰنُ",
+      "translation": "Is the reward for goodness anything but goodness?"
+    },
+    {
+      "number": 5083,
+      "numberInSurah": 4,
+      "surah": {
+        "englishName": "Al-Hadid"
+      },
+      "text": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "translation": "And He is with you wherever you are. And Allah is Seeing of what you do."
+    },
+    {
+      "number": 5212,
+      "numberInSurah": 13,
+      "surah": {
+        "englishName": "At-Taghabun"
+      },
+      "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "translation": "Allah — there is no deity except Him. And upon Allah let the believers rely."
+    },
+    {
+      "number": 6082,
+      "numberInSurah": 3,
+      "surah": {
+        "englishName": "Ad-Duha"
+      },
+      "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translation": "Your Lord has not taken leave of you, nor has He detested you."
+    },
+    {
+      "number": 6084,
+      "numberInSurah": 5,
+      "surah": {
+        "englishName": "Ad-Duha"
+      },
+      "text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "translation": "And your Lord is going to give you, and you will be satisfied."
+    }
+  ]
+}

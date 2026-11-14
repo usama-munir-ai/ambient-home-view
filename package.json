@@ -1,0 +1,18 @@
+{
+  "name": "ambient-home-view",
+  "version": "2.0.0",
+  "description": "Ambient Home View for any screen: clock, prayer times, weather and curated wallpapers.",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve@14 public -l ${PORT:-3000}",
+    "preview": "npx wrangler@4 pages dev public",
+    "build": "echo 'Static site — no build step needed'",
+    "curate:splash": "node scripts/curate-splash.mjs",
+    "curate:cozy": "node scripts/generate-cozy.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

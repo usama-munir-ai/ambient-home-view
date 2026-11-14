@@ -1,0 +1,32 @@
+/* Weather particle canvas — overlaid on the home frame.
+   Positioned above the scrim, below the content. */
+
+#weatherCanvas {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-weather-fx);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 2s var(--ease-in-out);
+}
+
+#weatherCanvas.active {
+  opacity: 1; /* Fully opaque canvas, opacity is handled per-particle in JS */
+}
+
+/* Heat shimmer — CSS wobble on the wallpaper, paired with canvas haze bands */
+.weather-heat .frame-bg {
+  animation: heatShimmer 3s ease-in-out infinite;
+}
+
+@keyframes heatShimmer {
+  0%, 100% { filter: blur(0) brightness(1); }
+  35%      { filter: blur(0.6px) brightness(1.05); }
+  65%      { filter: blur(0.3px) brightness(1.02); }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #weatherCanvas { display: none !important; }
+  .weather-heat .frame-bg { animation: none !important; }
+}

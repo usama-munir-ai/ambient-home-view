@@ -1,0 +1,229 @@
+/* World clocks — full city grid. Each card has its own backdrop. */
+
+.world-stage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.world-eyebrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--t-eyebrow);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 6px;
+  padding: 0 2px;
+}
+
+.world-eyebrow .home-time {
+  font-feature-settings: var(--feat-tnum);
+  color: var(--text);
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.world-eyebrow .home-time::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 6px;
+  vertical-align: middle;
+  box-shadow: 0 0 6px rgba(216, 180, 106, 0.5);
+}
+
+.world-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 12px;
+  min-height: 0;
+}
+
+.world-card {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--surface-glass);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 14px;
+  min-width: 0;
+  min-height: 0;
+  cursor: pointer;
+  transition: transform var(--dur-tap) var(--ease-out),
+    border-color var(--dur-tap) var(--ease-out);
+}
+
+.world-card:hover {
+  border-color: var(--accent-soft);
+  transform: translateY(-1px);
+}
+
+.world-card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  transition: filter 1.6s var(--ease-in-out);
+}
+
+.world-card[data-city="washington-dc"] .world-card-bg {
+  background-position: center 22%;
+}
+
+.world-card-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.14) 58%, transparent 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.62) 100%);
+  pointer-events: none;
+}
+
+[data-theme="light"] .world-card-scrim {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.12) 58%, transparent 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.14) 0%, rgba(0, 0, 0, 0.54) 100%);
+}
+
+.world-card-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  color: #fafafa;
+}
+
+.world-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.world-card-name {
+  font-size: var(--t-body);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.world-card-day {
+  font-size: var(--t-eyebrow);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.world-card-day.ahead {
+  color: var(--accent);
+}
+
+.world-card-day.behind {
+  color: #92c2c8;
+}
+
+.world-card-time {
+  font-family: var(--font-display);
+  font-feature-settings: var(--feat-tnum);
+  font-variant-numeric: tabular-nums;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.world-card-time .ampm {
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 3px;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.world-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 8.5px;
+  color: rgba(255, 255, 255, 0.78);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.world-card-offset {
+  font-feature-settings: var(--feat-tnum);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.world-card-credit {
+  font-size: 7px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.world-card-pearl {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  letter-spacing: 0.005em;
+  font-size: 9px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 512px) and (max-height: 320px) {
+  .world-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .world-card {
+    padding: 10px 12px;
+  }
+
+  .world-card-time {
+    font-size: 30px;
+  }
+}
+
+/* Portrait: two columns, as many equal rows as there are cities. */
+@media (orientation: portrait) {
+  .world-grid {
+    grid-template-rows: none;
+    grid-auto-rows: minmax(0, 1fr);
+  }
+}
