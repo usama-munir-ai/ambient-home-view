@@ -67054,6 +67054,2141 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermeer%27s_Milkmaid_(48885677997).jpg",
       "license": "CC BY 2.0",
       "caption": "Vermeer's Milkmaid (48885677997)"
+    },
+    {
+      "id": "dead-vlei-5-535685d428",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Dead_Vlei_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ikiwaner · Wikimedia Commons · GFDL 1.2",
+      "palette": {
+        "dominant": "#b8b8b8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.42,
+      "negSpace": 0.521,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "neutral"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_Vlei_5.jpg",
+      "license": "GFDL 1.2",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "iss021-e-5518-view-of-na-329c37c3ed",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/ISS021-E-5518_-_View_of_Namibia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#786868",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.453,
+      "negSpace": 0.659,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "neutral"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS021-E-5518_-_View_of_Namibia.jpg",
+      "license": "Public domain",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "iss026-e-5159-view-of-na-be46dc1683",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/ISS026-E-5159_-_View_of_Namibia.jpg/3840px-ISS026-E-5159_-_View_of_Namibia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#988888",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.54,
+      "negSpace": 0.717,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS026-E-5159_-_View_of_Namibia.jpg",
+      "license": "Public domain",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "montenegro-bay-2017-208abb59bc",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Montenegro_Bay_2017.jpg/3840px-Montenegro_Bay_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Sido uku · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#a8d8f8",
+        "isLight": true,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.693,
+      "negSpace": 0.384,
+      "tags": [
+        "expansive",
+        "wild",
+        "wonder",
+        "travel",
+        "hopeful",
+        "clear-warm",
+        "partly-cloudy",
+        "day",
+        "morning",
+        "spring",
+        "summer",
+        "cool",
+        "light"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montenegro_Bay_2017.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Kotor Bay",
+      "country": "Montenegro",
+      "tz": "Europe/Podgorica",
+      "caption": "Kotor Bay · Montenegro"
+    },
+    {
+      "id": "panorama-of-n-r-yfjord-t-15c521fb4a",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Panorama_of_N%C3%A6r%C3%B8yfjord_-_The_world%27s_most_beautiful_fjord_%2831685630390%29.jpg/3840px-Panorama_of_N%C3%A6r%C3%B8yfjord_-_The_world%27s_most_beautiful_fjord_%2831685630390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Jorge Láscar from Melbourne, Australia · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.395,
+      "negSpace": 0.331,
+      "tags": [
+        "expansive",
+        "wild",
+        "wonder",
+        "travel",
+        "hopeful",
+        "clear-warm",
+        "partly-cloudy",
+        "day",
+        "morning",
+        "spring",
+        "summer",
+        "neutral"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_N%C3%A6r%C3%B8yfjord_-_The_world%27s_most_beautiful_fjord_(31685630390).jpg",
+      "license": "CC BY 2.0",
+      "place": "Geirangerfjord",
+      "country": "Norway",
+      "tz": "Europe/Oslo",
+      "caption": "Geirangerfjord · Norway"
+    },
+    {
+      "id": "iss030-e-5150-view-of-na-beb54d7379",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/ISS030-E-5150_-_View_of_Namibia.jpg/3840px-ISS030-E-5150_-_View_of_Namibia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#a87868",
+        "isLight": true,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.568,
+      "negSpace": 0.935,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "warm",
+        "light"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS030-E-5150_-_View_of_Namibia.jpg",
+      "license": "Public domain",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "iss026-e-5161-view-of-na-d4564b8b39",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/ISS026-E-5161_-_View_of_Namibia.jpg/3840px-ISS026-E-5161_-_View_of_Namibia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#a89898",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.6,
+      "negSpace": 0.712,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS026-E-5161_-_View_of_Namibia.jpg",
+      "license": "Public domain",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "mostar-bw-2024-10-01-11--95c407da91",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Mostar_BW_2024-10-01_11-41-06.jpg/3840px-Mostar_BW_2024-10-01_11-41-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Berthold Werner · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#180808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.348,
+      "negSpace": 0.05,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mostar_BW_2024-10-01_11-41-06.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Mostar BW"
+    },
+    {
+      "id": "blue-mosque-tabriz-b87053c517",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Blue_mosque_tabriz.JPG/3840px-Blue_mosque_tabriz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Zenith210 (talk) (Uploads) · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.424,
+      "negSpace": 0.191,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_mosque_tabriz.JPG",
+      "license": "CC BY-SA 3.0",
+      "caption": "Blue mosque tabriz"
+    },
+    {
+      "id": "interior-of-blue-kabud-m-ef4c3f8554",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Interior_of_Blue_%28Kabud%29_Mosque_-_Tabriz_-_Iranian_Azerbaijan_-_Iran_-_01_%287421681942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Adam Jones from Kelowna, BC, Canada · Wikimedia Commons · CC BY-SA 2.0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.327,
+      "negSpace": 0,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Blue_(Kabud)_Mosque_-_Tabriz_-_Iranian_Azerbaijan_-_Iran_-_01_(7421681942).jpg",
+      "license": "CC BY-SA 2.0",
+      "caption": "Interior of Blue (Kabud) Mosque"
+    },
+    {
+      "id": "wikimedia-eb0f72587b",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_06.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Mostafameraji · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#181838",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.265,
+      "negSpace": 0.491,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "expansive",
+        "cool"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_06.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "کاروانسرای دیر گچین یا مادر، بزرگترین کاروانسرای خشتی گچی ایران"
+    },
+    {
+      "id": "pray-173267217-3941bab8ea",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pray_%28173267217%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Aslan Sarizeybek · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.068,
+      "negSpace": 0.465,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pray_(173267217).jpeg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Pray (173267217)"
+    },
+    {
+      "id": "blue-mosque-tabriz-1-7167fdc29b",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Blue_mosque_tabriz_1.JPG/3840px-Blue_mosque_tabriz_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Zenith210 (talk) (Uploads) · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#282818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.311,
+      "negSpace": 0.386,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_mosque_tabriz_1.JPG",
+      "license": "CC BY-SA 3.0",
+      "caption": "Blue mosque tabriz 1"
+    },
+    {
+      "id": "03-1fe944b21b",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/%D8%AD%D8%B1%D9%85%D8%8C_%D8%B4%D8%A8%D8%B3%D8%AA%D8%A7%D9%86_%D8%A7%D9%85%D8%A7%D9%85_%D8%AE%D9%85%DB%8C%D9%86%DB%8C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Mostafameraji · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.737,
+      "negSpace": 0.202,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "expansive",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%AD%D8%B1%D9%85%D8%8C_%D8%B4%D8%A8%D8%B3%D8%AA%D8%A7%D9%86_%D8%A7%D9%85%D8%A7%D9%85_%D8%AE%D9%85%DB%8C%D9%86%DB%8C_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "حرم، شبستان امام خمینی 03"
+    },
+    {
+      "id": "mehrab-of-masjed-e-mufti-f8ed8c1d78",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mehrab_of_Masjed_e_Mufti_-_Azam.JPG/3840px-Mehrab_of_Masjed_e_Mufti_-_Azam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Naimulehasan · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#788878",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.55,
+      "negSpace": 0.141,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehrab_of_Masjed_e_Mufti_-_Azam.JPG",
+      "license": "CC BY-SA 3.0",
+      "caption": "Mehrab of Masjed e Mufti"
+    },
+    {
+      "id": "wikimedia-ac2bf45800",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_08.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Mostafameraji · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#4868d8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.468,
+      "negSpace": 0.788,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "expansive",
+        "cool"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_08.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "کاروانسرای دیر گچین یا مادر، بزرگترین کاروانسرای خشتی گچی ایران"
+    },
+    {
+      "id": "mihrab-and-minbar-of-mas-ede751dd50",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mihrab_and_minbar_of_Masjid_Jamae.jpg/3840px-Mihrab_and_minbar_of_Masjid_Jamae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "M. Adrian Jurhami · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#d8d8c8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.826,
+      "negSpace": 0.5,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mihrab_and_minbar_of_Masjid_Jamae.jpg",
+      "license": "CC BY 4.0",
+      "caption": "Mihrab and minbar of Masjid Jamae"
+    },
+    {
+      "id": "mihrab-de-la-mesquita-de-b8b6f4c403",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mihrab_de_la_mesquita_de_la_Xara%2C_Simat_de_la_Valldigna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Joanbanjo · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#382828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.446,
+      "negSpace": 0.246,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mihrab_de_la_mesquita_de_la_Xara,_Simat_de_la_Valldigna.jpg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Mihrab de la mesquita de la Xara, Simat de la Valldigna"
+    },
+    {
+      "id": "wikimedia-e3e903d6d6",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_04.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Mostafameraji · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#2848b8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.339,
+      "negSpace": 0.663,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "expansive",
+        "cool"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "کاروانسرای دیر گچین یا مادر، بزرگترین کاروانسرای خشتی گچی ایران"
+    },
+    {
+      "id": "wikimedia-efb78bbc7b",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_05.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Mostafameraji · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#2858b8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.34,
+      "negSpace": 0.751,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "expansive",
+        "cool"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AF%DB%8C%D8%B1_%DA%AF%DA%86%DB%8C%D9%86_%DB%8C%D8%A7_%D9%85%D8%A7%D8%AF%D8%B1%D8%8C_%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86_%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%DB%8C_%D8%AE%D8%B4%D8%AA%DB%8C_%DA%AF%DA%86%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D8%AF%D8%B1_%D9%85%D8%B1%DA%A9%D8%B2_%D9%BE%D8%A7%D8%B1%DA%A9_%D9%85%D9%84%DB%8C_%DA%A9%D9%88%DB%8C%D8%B1-_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D9%82%D9%85_05.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "کاروانسرای دیر گچین یا مادر، بزرگترین کاروانسرای خشتی گچی ایران"
+    },
+    {
+      "id": "der-blaue-koran-kairouan-95efa021e7",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Der_blaue_Koran%2CKairouan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Unknown artistUnknown artist · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#285898",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.442,
+      "negSpace": 0,
+      "tags": [
+        "sacred",
+        "reverent",
+        "contemplative",
+        "manuscript",
+        "calligraphy",
+        "cool"
+      ],
+      "frames": [
+        "quran",
+        "prayer",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_blaue_Koran,Kairouan.JPG",
+      "license": "Public domain",
+      "caption": "Der blaue Koran,Kairouan"
+    },
+    {
+      "id": "fence-dusk-poland-meadow-b37d6464ca",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Fence_Dusk_Poland_Meadow_Hd_Wallpaper_%2830161507%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ess Threefive · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.555,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fence_Dusk_Poland_Meadow_Hd_Wallpaper_(30161507).jpeg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Fence Dusk Poland Meadow Hd Wallpaper (30161507)"
+    },
+    {
+      "id": "luzern-asv2022-10-kapell-7aedd6c9ff",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Luzern_asv2022-10_Kapellbr%C3%BCcke_img1.jpg/3840px-Luzern_asv2022-10_Kapellbr%C3%BCcke_img1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "A.Savin · Wikimedia Commons · FAL",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.29,
+      "negSpace": 0.117,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzern_asv2022-10_Kapellbr%C3%BCcke_img1.jpg",
+      "license": "FAL",
+      "caption": "Luzern asv2022"
+    },
+    {
+      "id": "bergtocht-van-vens-naar--16f62e686c",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bergtocht_van_Vens_naar_Bettex_in_Valle_d%27Aosta_%28Itali%C3%AB%29._Bomen_langs_bergpad_in_dichte_mist_04.jpg/3840px-Bergtocht_van_Vens_naar_Bettex_in_Valle_d%27Aosta_%28Itali%C3%AB%29._Bomen_langs_bergpad_in_dichte_mist_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dominicus Johannes Bergsma · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#584838",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.606,
+      "negSpace": 0.428,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "warm"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergtocht_van_Vens_naar_Bettex_in_Valle_d%27Aosta_(Itali%C3%AB)._Bomen_langs_bergpad_in_dichte_mist_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Bergtocht van Vens naar Bettex in Valle d'Aosta (Italië). Bomen"
+    },
+    {
+      "id": "21-224-5054-nnp-synevyr--39390c4dab",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/21-224-5054_NNP_Synevyr_RB_18.jpg/3840px-21-224-5054_NNP_Synevyr_RB_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Rbrechko · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#d8d8d8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.852,
+      "negSpace": 0.367,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:21-224-5054_NNP_Synevyr_RB_18.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Synevyr",
+      "country": "Ukraine",
+      "tz": "Europe/Kyiv",
+      "caption": "Lake Synevyr · Ukraine"
+    },
+    {
+      "id": "li-phi-falls-at-sunrise--f1f3aaedc1",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Li_Phi_falls_at_sunrise_with_white_and_grey_clouds_in_Don_Khon_Laos.jpg/3840px-Li_Phi_falls_at_sunrise_with_white_and_grey_clouds_in_Don_Khon_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#282828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.592,
+      "negSpace": 0.081,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Phi_falls_at_sunrise_with_white_and_grey_clouds_in_Don_Khon_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Luang Prabang",
+      "country": "Laos",
+      "tz": "Asia/Vientiane",
+      "caption": "Luang Prabang · Laos"
+    },
+    {
+      "id": "coral-tree-monsoon-malla-536181f1cc",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Coral_Tree_Monsoon_Mallalli_Falls_Hassan_Jun24_A7CR_01575.jpg/3840px-Coral_Tree_Monsoon_Mallalli_Falls_Hassan_Jun24_A7CR_01575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but pl · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#d8d8d8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.592,
+      "negSpace": 0.584,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_Tree_Monsoon_Mallalli_Falls_Hassan_Jun24_A7CR_01575.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Coral Tree Monsoon Mallalli Falls Hassan Jun24 A7CR 01575"
+    },
+    {
+      "id": "the-traffic-moving-slowl-92954beb8f",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_traffic_moving_slowly_as_the_Road_transport_suffered_a_lot_due_to_the_thick_fog_in_the_morning%2C_in_New_Delhi_on_January_21%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ministry of Environment, Forest and Climate Change · Wikimedia Commons · GODL-India",
+      "palette": {
+        "dominant": "#989898",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.595,
+      "negSpace": 0.908,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_traffic_moving_slowly_as_the_Road_transport_suffered_a_lot_due_to_the_thick_fog_in_the_morning,_in_New_Delhi_on_January_21,_2010.jpg",
+      "license": "GODL-India",
+      "caption": "The traffic moving slowly as the Road transport suffered a lot"
+    },
+    {
+      "id": "baumsilhouetten-am-uetli-5b976acc14",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Baumsilhouetten_am_Uetliberg_mit_Novembernebel_und_Sonnenstrahlen.jpg/3840px-Baumsilhouetten_am_Uetliberg_mit_Novembernebel_und_Sonnenstrahlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Kuhnmi · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#483828",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.595,
+      "negSpace": 0.057,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "warm"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baumsilhouetten_am_Uetliberg_mit_Novembernebel_und_Sonnenstrahlen.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Baumsilhouetten am Uetliberg mit Novembernebel und"
+    },
+    {
+      "id": "olkhon-island-capes-clif-f93d5e17b9",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Olkhon_Island%2C_Capes%2C_cliffs_at_sunset%2C_Lake_Baikal%2C_Russia.jpg/3840px-Olkhon_Island%2C_Capes%2C_cliffs_at_sunset%2C_Lake_Baikal%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Vyacheslav Argenberg · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#a8a8b8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.616,
+      "negSpace": 0.123,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olkhon_Island,_Capes,_cliffs_at_sunset,_Lake_Baikal,_Russia.jpg",
+      "license": "CC BY 4.0",
+      "caption": "Olkhon Island, Capes, cliffs at sunset, Lake Baikal, Russia"
+    },
+    {
+      "id": "coast-guard-hc-130-hercu-365a757728",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Coast_Guard_HC-130_Hercules_aircrew_conducts_first_light_search_and_rescue_operations_over_Cook_Inlet%2C_Alaska_141003-G-FO900-065.jpg/3840px-Coast_Guard_HC-130_Hercules_aircrew_conducts_first_light_search_and_rescue_operations_over_Cook_Inlet%2C_Alaska_141003-G-FO900-065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tracey Mertens · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.554,
+      "negSpace": 0,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coast_Guard_HC-130_Hercules_aircrew_conducts_first_light_search_and_rescue_operations_over_Cook_Inlet,_Alaska_141003-G-FO900-065.jpg",
+      "license": "Public domain",
+      "caption": "Coast Guard HC"
+    },
+    {
+      "id": "storm-clearing-on-ridge--ec3824083f",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Storm_clearing_on_ridge_up_to_Baldy_Mountain_Custer_Gallatin_NF_IMG_5238_%2853280861505%29.jpg/3840px-Storm_clearing_on_ridge_up_to_Baldy_Mountain_Custer_Gallatin_NF_IMG_5238_%2853280861505%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Forest Service - Northern Region · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#d8d8e8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.536,
+      "negSpace": 0.421,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Storm_clearing_on_ridge_up_to_Baldy_Mountain_Custer_Gallatin_NF_IMG_5238_(53280861505).jpg",
+      "license": "Public domain",
+      "caption": "Storm clearing on ridge up to Baldy Mountain Custer Gallatin NF"
+    },
+    {
+      "id": "the-golden-staircase-poe-5cb0c5f206",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/The_golden_staircase-_poems_and_verses_for_children_%281907%29_%2814569403827%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Internet Archive Book Images · Wikimedia Commons · No restrictions",
+      "palette": {
+        "dominant": "#f8e8d8",
+        "isLight": true,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.778,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "light"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_golden_staircase-_poems_and_verses_for_children_(1907)_(14569403827).jpg",
+      "license": "No restrictions",
+      "caption": "The golden staircase"
+    },
+    {
+      "id": "the-traffic-moving-slowl-c376def811",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_traffic_moving_slowly_with_opening_headlights_due_to_heavy_fog_in_the_morning%2C_in_New_Delhi_on_January_23%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ministry of Environment, Forest and Climate Change · Wikimedia Commons · GODL-India",
+      "palette": {
+        "dominant": "#484848",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.44,
+      "negSpace": 0.472,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_traffic_moving_slowly_with_opening_headlights_due_to_heavy_fog_in_the_morning,_in_New_Delhi_on_January_23,_2010.jpg",
+      "license": "GODL-India",
+      "caption": "The traffic moving slowly with opening headlights due to heavy"
+    },
+    {
+      "id": "vista-del-puerto-de-vict-794a31583a",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Vista_del_Puerto_de_Victoria_desde_la_Cumbre_Victoria%2C_Hong_Kong%2C_2013-08-09%2C_DD_11-_12_PAN.jpg/3840px-Vista_del_Puerto_de_Victoria_desde_la_Cumbre_Victoria%2C_Hong_Kong%2C_2013-08-09%2C_DD_11-_12_PAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Diego Delso · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.176,
+      "negSpace": 0.46,
+      "tags": [
+        "expansive",
+        "wild",
+        "morning",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_del_Puerto_de_Victoria_desde_la_Cumbre_Victoria,_Hong_Kong,_2013-08-09,_DD_11-_12_PAN.jpg",
+      "license": "CC BY-SA 3.0",
+      "place": "Hong Kong",
+      "country": "China",
+      "tz": "Asia/Hong_Kong",
+      "caption": "Hong Kong · China"
+    },
+    {
+      "id": "marine-fog-over-the-klam-efe56adc5e",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Marine_fog_over_the_Klamath_River_mouth_and_sandspit%2C_Del_Norte_County%2C_California.jpg/3840px-Marine_fog_over_the_Klamath_River_mouth_and_sandspit%2C_Del_Norte_County%2C_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Z3lvs · Wikimedia Commons · CC0",
+      "palette": {
+        "dominant": "#c8d8e8",
+        "isLight": true,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.793,
+      "negSpace": 0.763,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marine_fog_over_the_Klamath_River_mouth_and_sandspit,_Del_Norte_County,_California.jpg",
+      "license": "CC0",
+      "caption": "Marine fog over the Klamath River mouth and sandspit, Del Norte"
+    },
+    {
+      "id": "de-zon-probeert-door-de--fc44c6d22e",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/De_zon_probeert_door_de_mist_te_breken._Locatie%2C_Langweerderwielen_%28Langwarder_Wielen%29_en_omgeving_01.jpg/3840px-De_zon_probeert_door_de_mist_te_breken._Locatie%2C_Langweerderwielen_%28Langwarder_Wielen%29_en_omgeving_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dominicus Johannes Bergsma · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#e8d8d8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.843,
+      "negSpace": 0.595,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De_zon_probeert_door_de_mist_te_breken._Locatie,_Langweerderwielen_(Langwarder_Wielen)_en_omgeving_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "De zon probeert door de mist te breken. Locatie,"
+    },
+    {
+      "id": "water-reflection-of-a-wo-9f298579ed",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Water_reflection_of_a_wodden_hut_and_colorful_sky_in_a_paddy_field_at_sunset_Vang_Vieng_Laos.jpg/3840px-Water_reflection_of_a_wodden_hut_and_colorful_sky_in_a_paddy_field_at_sunset_Vang_Vieng_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.421,
+      "negSpace": 0.2,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_a_wodden_hut_and_colorful_sky_in_a_paddy_field_at_sunset_Vang_Vieng_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Luang Prabang",
+      "country": "Laos",
+      "tz": "Asia/Vientiane",
+      "caption": "Luang Prabang · Laos"
+    },
+    {
+      "id": "la-toussuire-ski-resort--fdadbef113",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/La_Toussuire_Ski_Resort_Wide.jpg/3840px-La_Toussuire_Ski_Resort_Wide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Benh LIEU SONG (Flickr) · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#e8d8d8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.553,
+      "negSpace": 0,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Toussuire_Ski_Resort_Wide.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "La Toussuire Ski Resort Wide"
+    },
+    {
+      "id": "sunset-cliffs-natural-pa-ab6c385f15",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sunset_Cliffs_Natural_Park_kz01.jpg/3840px-Sunset_Cliffs_Natural_Park_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Krzysztof Ziarnek, Kenraiz · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#b8b8a8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.657,
+      "negSpace": 0.269,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_Natural_Park_kz01.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs Natural Park kz01"
+    },
+    {
+      "id": "first-light-11407291584-2a577d858d",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/First_Light_%2811407291584%29.jpg/3840px-First_Light_%2811407291584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Bureau of Land Management Oregon and Washington · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.699,
+      "negSpace": 0.622,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_Light_(11407291584).jpg",
+      "license": "Public domain",
+      "place": "Washington, D.C.",
+      "country": "United States",
+      "tz": "America/New_York",
+      "caption": "Washington, D.C. · United States"
+    },
+    {
+      "id": "water-reflection-of-kink-9cf4f4e3b3",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Water_reflection_of_Kinkaku-ji_Temple_with_a_tree_on_a_rock_in_the_pond%2C_Kyoto%2C_Japan.jpg/3840px-Water_reflection_of_Kinkaku-ji_Temple_with_a_tree_on_a_rock_in_the_pond%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.388,
+      "negSpace": 0,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_Kinkaku-ji_Temple_with_a_tree_on_a_rock_in_the_pond,_Kyoto,_Japan.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Kyoto",
+      "country": "Japan",
+      "tz": "Asia/Tokyo",
+      "caption": "Kyoto · Japan"
+    },
+    {
+      "id": "bergtocht-van-alp-farur--a21540dd4a",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Bergtocht_van_Alp_Farur_%281940_meter%29_via_Stelli_%282383_meter%29_naar_G%C3%BCrgaletsch_%282560_meter%29_010.jpg/3840px-Bergtocht_van_Alp_Farur_%281940_meter%29_via_Stelli_%282383_meter%29_naar_G%C3%BCrgaletsch_%282560_meter%29_010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Agnes Monkelbaan · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#d8d8d8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.751,
+      "negSpace": 0.55,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergtocht_van_Alp_Farur_(1940_meter)_via_Stelli_(2383_meter)_naar_G%C3%BCrgaletsch_(2560_meter)_010.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Bergtocht van Alp Farur ( meter) via Stelli ( meter) naar"
+    },
+    {
+      "id": "sunset-cliffs-san-diego--81604fce0d",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Sunset_Cliffs_San_Diego_CA_at_sunset.jpg/3840px-Sunset_Cliffs_San_Diego_CA_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Pjanderson47 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.599,
+      "negSpace": 0.723,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_San_Diego_CA_at_sunset.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs San Diego CA at sunset"
+    },
+    {
+      "id": "sunset-cliffs-san-diego--b4b1409a24",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunset_Cliffs_San_Diego_2013.jpg/3840px-Sunset_Cliffs_San_Diego_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tuxyso · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#9898a8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.7,
+      "negSpace": 0.553,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_San_Diego_2013.jpg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Sunset Cliffs San Diego"
+    },
+    {
+      "id": "m-nster-torminbr-cke-201-96f8d1447a",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/M%C3%BCnster%2C_Torminbr%C3%BCcke_--_2015_--_7447.jpg/3840px-M%C3%BCnster%2C_Torminbr%C3%BCcke_--_2015_--_7447.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.338,
+      "negSpace": 0.212,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_Torminbr%C3%BCcke_--_2015_--_7447.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Constance",
+      "country": "Germany",
+      "tz": "Europe/Berlin",
+      "caption": "Lake Constance · Germany"
+    },
+    {
+      "id": "water-reflection-of-tree-b4c2ed4182",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Water_reflection_of_trees_and_boats_on_the_Katsura_River_near_Togetsukyo%2C_Kyoto%2C_Japan.jpg/3840px-Water_reflection_of_trees_and_boats_on_the_Katsura_River_near_Togetsukyo%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#384838",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.222,
+      "negSpace": 0.176,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_trees_and_boats_on_the_Katsura_River_near_Togetsukyo,_Kyoto,_Japan.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Kyoto",
+      "country": "Japan",
+      "tz": "Asia/Tokyo",
+      "caption": "Kyoto · Japan"
+    },
+    {
+      "id": "bergtocht-van-vens-naar--999c685517",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bergtocht_van_Vens_naar_Bettex_in_Valle_d%27Aosta_%28Itali%C3%AB%29._Bomen_langs_bergpad_in_dichte_mist_09.jpg/3840px-Bergtocht_van_Vens_naar_Bettex_in_Valle_d%27Aosta_%28Itali%C3%AB%29._Bomen_langs_bergpad_in_dichte_mist_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dominicus Johannes Bergsma · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#e8e8e8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.85,
+      "negSpace": 0.206,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergtocht_van_Vens_naar_Bettex_in_Valle_d%27Aosta_(Itali%C3%AB)._Bomen_langs_bergpad_in_dichte_mist_09.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Bergtocht van Vens naar Bettex in Valle d'Aosta (Italië). Bomen"
+    },
+    {
+      "id": "coast-guard-hc-130-hercu-3b02dacc80",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Coast_Guard_HC-130_Hercules_aircrew_conducts_first_light_search_and_rescue_operations_over_Cook_Inlet%2C_Alaska_141003-G-FO900-064.jpg/3840px-Coast_Guard_HC-130_Hercules_aircrew_conducts_first_light_search_and_rescue_operations_over_Cook_Inlet%2C_Alaska_141003-G-FO900-064.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tracey Mertens · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#283878",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.489,
+      "negSpace": 0.716,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "cool"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coast_Guard_HC-130_Hercules_aircrew_conducts_first_light_search_and_rescue_operations_over_Cook_Inlet,_Alaska_141003-G-FO900-064.jpg",
+      "license": "Public domain",
+      "caption": "Coast Guard HC"
+    },
+    {
+      "id": "baum-in-k-rnten-037-8530f39a8e",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Baum_in_K%C3%A4rnten_037.jpg/3840px-Baum_in_K%C3%A4rnten_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "zause01 · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#a8a8b8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.679,
+      "negSpace": 0.866,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baum_in_K%C3%A4rnten_037.jpg",
+      "license": "Public domain",
+      "caption": "Baum in Kärnten 037"
+    },
+    {
+      "id": "clearing-storm-star-dune-39e1768377",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Clearing_Storm%2C_Star_Dune_and_Crestone_Peaks_%2847682303581%29.jpg/3840px-Clearing_Storm%2C_Star_Dune_and_Crestone_Peaks_%2847682303581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Great Sand Dunes National Park and Preserve · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#a898a8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.572,
+      "negSpace": 0.059,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clearing_Storm,_Star_Dune_and_Crestone_Peaks_(47682303581).jpg",
+      "license": "Public domain",
+      "caption": "Clearing Storm, Star Dune and Crestone Peaks (47682303581)"
+    },
+    {
+      "id": "l-dinghausen-berenbrock--2abf31fa0c",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/L%C3%BCdinghausen%2C_Berenbrock%2C_Dortmund-Ems-Kanal_%28an_der_Kreisstra%C3%9Fe_23%29_--_2015_--_4668-70.jpg/3840px-L%C3%BCdinghausen%2C_Berenbrock%2C_Dortmund-Ems-Kanal_%28an_der_Kreisstra%C3%9Fe_23%29_--_2015_--_4668-70.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.53,
+      "negSpace": 0.526,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%BCdinghausen,_Berenbrock,_Dortmund-Ems-Kanal_(an_der_Kreisstra%C3%9Fe_23)_--_2015_--_4668-70.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Lüdinghausen, Berenbrock, Dortmund"
+    },
+    {
+      "id": "newforestponies-sunrise-e12ec304e9",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/NewForestPonies_sunrise.jpg/3840px-NewForestPonies_sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Joana Kruse joanaimages.com · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#282828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.695,
+      "negSpace": 0.467,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NewForestPonies_sunrise.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "NewForestPonies sunrise"
+    },
+    {
+      "id": "sunset-cliffs-san-diego-430ad254ed",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sunset_Cliffs%2C_San_Diego.jpg/3840px-Sunset_Cliffs%2C_San_Diego.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Saltytog · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#88b8d8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.793,
+      "negSpace": 0.296,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "cool"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs,_San_Diego.jpg",
+      "license": "CC BY 4.0",
+      "caption": "Sunset Cliffs, San Diego"
+    },
+    {
+      "id": "field-summer-countryside-161ba527b3",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Field-summer-countryside-autumn_%2824030454920%29.jpg/3840px-Field-summer-countryside-autumn_%2824030454920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "www.Pixel.la Free Stock Photos · Wikimedia Commons · CC0",
+      "palette": {
+        "dominant": "#684828",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.549,
+      "negSpace": 0.244,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Field-summer-countryside-autumn_(24030454920).jpg",
+      "license": "CC0",
+      "caption": "Autumn (24030454920)"
+    },
+    {
+      "id": "nebel-schienen-panorama-e905909837",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Nebel_Schienen_Panorama.jpg/3840px-Nebel_Schienen_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "DerMische · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#c8c8c8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.611,
+      "negSpace": 0.336,
+      "tags": [
+        "expansive",
+        "wild",
+        "morning",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nebel_Schienen_Panorama.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Nebel Schienen Panorama"
+    },
+    {
+      "id": "les-aresquiers-frontigna-1c47df2baa",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Les_Aresquiers%2C_Frontignan.jpg/3840px-Les_Aresquiers%2C_Frontignan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Christian Ferrer · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.679,
+      "negSpace": 0.064,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Aresquiers,_Frontignan.jpg",
+      "license": "CC BY 4.0",
+      "caption": "Les Aresquiers, Frontignan"
+    },
+    {
+      "id": "meadow-grass-dusk-hd-wal-fb4999246f",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Meadow_Grass_Dusk_Hd_Wallpaper_%2830161501%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ess Threefive · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.123,
+      "negSpace": 0.049,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadow_Grass_Dusk_Hd_Wallpaper_(30161501).jpeg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Meadow Grass Dusk Hd Wallpaper (30161501)"
+    },
+    {
+      "id": "fog-in-delhi-early-in-th-b54fb9de15",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Fog_in_Delhi_early_in_the_morning_on_January_07%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ministry of Environment, Forest and Climate Change · Wikimedia Commons · GODL-India",
+      "palette": {
+        "dominant": "#a8a8a8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.629,
+      "negSpace": 0.844,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fog_in_Delhi_early_in_the_morning_on_January_07,_2010.jpg",
+      "license": "GODL-India",
+      "caption": "Fog in Delhi early in the morning on January 07,"
+    },
+    {
+      "id": "the-fishermen-relaxing-o-c9a85187c4",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/The_fishermen_relaxing_on_the_dense_fog_in_after_completing_their_night_long_fishing_on_the_bank_of_Brahmaputra_River%2C_in_Guwahati%2C_Assam_on_December_29%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ministry of Environment, Forest and Climate Change · Wikimedia Commons · GODL-India",
+      "palette": {
+        "dominant": "#686868",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.648,
+      "negSpace": 0.818,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_fishermen_relaxing_on_the_dense_fog_in_after_completing_their_night_long_fishing_on_the_bank_of_Brahmaputra_River,_in_Guwahati,_Assam_on_December_29,_2010.jpg",
+      "license": "GODL-India",
+      "caption": "The fishermen relaxing on the dense fog in after completing"
+    },
+    {
+      "id": "dusk-meadow-poland-puck--ea23259195",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dusk_Meadow_Poland_Puck_Hd_Wallpaper_%2830161495%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ess Threefive · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.271,
+      "negSpace": 0.724,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dusk_Meadow_Poland_Puck_Hd_Wallpaper_(30161495).jpeg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Dusk Meadow Poland Puck Hd Wallpaper (30161495)"
+    },
+    {
+      "id": "ulvikfjordmountainspanor-620068f1bd",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/UlvikfjordMountainsPanorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Aqwis · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.414,
+      "negSpace": 0.165,
+      "tags": [
+        "expansive",
+        "wild",
+        "morning",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:UlvikfjordMountainsPanorama.jpg",
+      "license": "CC BY-SA 3.0",
+      "caption": "UlvikfjordMountainsPanorama"
+    },
+    {
+      "id": "sunset-cliffs-san-diego--c43eb3e95c",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sunset_Cliffs%2C_San_Diego%2C_United_States_%28Unsplash%29.jpg/3840px-Sunset_Cliffs%2C_San_Diego%2C_United_States_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tyler Mullins tfox · Wikimedia Commons · CC0",
+      "palette": {
+        "dominant": "#282828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.187,
+      "negSpace": 0.697,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs,_San_Diego,_United_States_(Unsplash).jpg",
+      "license": "CC0",
+      "caption": "Sunset Cliffs, San Diego, United States (Unsplash)"
+    },
+    {
+      "id": "aguirangan-island-in-a-v-b7fe4506ae",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Aguirangan_Island_in_a_Vast_Ocean.jpg/3840px-Aguirangan_Island_in_a_Vast_Ocean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Derk29 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.777,
+      "negSpace": 0.374,
+      "tags": [
+        "expansive",
+        "wild",
+        "morning",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aguirangan_Island_in_a_Vast_Ocean.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Aguirangan Island in a Vast Ocean"
+    },
+    {
+      "id": "gloomy-light-in-winter-a-cd54895262",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Gloomy_light_in_winter_at_Loddebo_3.jpg/3840px-Gloomy_light_in_winter_at_Loddebo_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "W.carter · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.608,
+      "negSpace": 0.174,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gloomy_light_in_winter_at_Loddebo_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Gloomy light in winter at Loddebo 3"
+    },
+    {
+      "id": "interior-chicago-cultura-686f7e92bd",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Interior%2C_Chicago_Cultural_Center_%28Former_Chicago_Public_Library_Central_Building%29%2C_Michigan_Avenue%2C_Chicago%2C_IL_-_54191802625.jpg/3840px-Interior%2C_Chicago_Cultural_Center_%28Former_Chicago_Public_Library_Central_Building%29%2C_Michigan_Avenue%2C_Chicago%2C_IL_-_54191802625.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "w_lemay · Wikimedia Commons · CC BY-SA 2.0",
+      "palette": {
+        "dominant": "#b8a898",
+        "isLight": true,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.62,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "contemplative",
+        "interior",
+        "morning",
+        "warm",
+        "light"
+      ],
+      "frames": [
+        "cal",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior,_Chicago_Cultural_Center_(Former_Chicago_Public_Library_Central_Building),_Michigan_Avenue,_Chicago,_IL_-_54191802625.jpg",
+      "license": "CC BY-SA 2.0",
+      "caption": "Interior, Chicago Cultural Center (Former Chicago Public"
+    },
+    {
+      "id": "vermeer-s-woman-reading--99c94a98e1",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Vermeer%27s_Woman_Reading_a_Letter_%2848885678442%29.jpg/3840px-Vermeer%27s_Woman_Reading_a_Letter_%2848885678442%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Maarten Heerlien from Voorschoten, The Netherlands · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#f8d8d8",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.404,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "contemplative",
+        "interior",
+        "morning",
+        "warm"
+      ],
+      "frames": [
+        "cal",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermeer%27s_Woman_Reading_a_Letter_(48885678442).jpg",
+      "license": "CC BY 2.0",
+      "caption": "Vermeer's Woman Reading a Letter (48885678442)"
     }
   ],
   "generatedAt": "2026-10-30T16:50:28.394Z"
