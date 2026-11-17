@@ -71440,6 +71440,1681 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior,_Chicago_Cultural_Center_(Former_Chicago_Public_Library_Central_Building),_Michigan_Avenue,_Chicago,_IL_-_54191606698.jpg",
       "license": "CC BY-SA 2.0",
       "caption": "Interior, Chicago Cultural Center (Former Chicago Public"
+    },
+    {
+      "id": "006-dune-45-in-sossusvle-2e34efaca8",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg/3840px-006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#a8c8e8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.722,
+      "negSpace": 0.624,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "cool"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "sossusvlei-dune-namib-de-7231663ac7",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sossusvlei_Dune_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Luca Galuzzi (Lucag) · Wikimedia Commons · CC BY-SA 2.5",
+      "palette": {
+        "dominant": "#f89868",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.602,
+      "negSpace": 0.718,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "warm"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sossusvlei_Dune_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG",
+      "license": "CC BY-SA 2.5",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "toledo-desde-la-calle-ca-8f613d2e4a",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Toledo_Desde_La_Calle_Carretas_%28221301685%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Francisco Anzola · Wikimedia Commons · CC BY 3.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.636,
+      "negSpace": 0.301,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "neutral"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toledo_Desde_La_Calle_Carretas_(221301685).jpeg",
+      "license": "CC BY 3.0",
+      "place": "Toledo",
+      "country": "Spain",
+      "tz": "Europe/Madrid",
+      "caption": "Toledo · Spain"
+    },
+    {
+      "id": "thorn-tree-sossusvlei-na-6d78188490",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Thorn_Tree_Sossusvlei_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Luca Galuzzi (Lucag) · Wikimedia Commons · CC BY-SA 2.5",
+      "palette": {
+        "dominant": "#382818",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.618,
+      "negSpace": 0.421,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "warm"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thorn_Tree_Sossusvlei_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG",
+      "license": "CC BY-SA 2.5",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "duna-en-sossusvlei-namib-4b84cf49f9",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Duna_en_Sossusvlei%2C_Namibia%2C_2018-08-06%2C_DD_002.jpg/3840px-Duna_en_Sossusvlei%2C_Namibia%2C_2018-08-06%2C_DD_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#68a8d8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.669,
+      "negSpace": 0.766,
+      "tags": [
+        "expansive",
+        "wonder",
+        "travel",
+        "heritage",
+        "grounded",
+        "clear-warm",
+        "heat",
+        "partly-cloudy",
+        "golden",
+        "dusk",
+        "dawn",
+        "autumn",
+        "cool"
+      ],
+      "frames": [
+        "home"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duna_en_Sossusvlei,_Namibia,_2018-08-06,_DD_002.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Namib Desert",
+      "country": "Namibia",
+      "tz": "Africa/Windhoek",
+      "caption": "Namib Desert · Namibia"
+    },
+    {
+      "id": "wikimedia-977136d636",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%D9%81%D8%B6%D8%A7%DB%8C_%D9%85%D8%B3%D8%AC%D8%AF_%D8%AD%D8%B3%DB%8C%D9%86%DB%8C_%D8%A7%D8%B2_%D8%A8%DB%8C%D8%B1%D9%88%D9%86_%DA%AF%DA%86_%D8%A8%D8%B1%DB%8C_%D9%88_%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C_%D8%A8%D9%86%D8%A7.jpg/3840px-%D9%81%D8%B6%D8%A7%DB%8C_%D9%85%D8%B3%D8%AC%D8%AF_%D8%AD%D8%B3%DB%8C%D9%86%DB%8C_%D8%A7%D8%B2_%D8%A8%DB%8C%D8%B1%D9%88%D9%86_%DA%AF%DA%86_%D8%A8%D8%B1%DB%8C_%D9%88_%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C_%D8%A8%D9%86%D8%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Hrezapour · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.257,
+      "negSpace": 0.669,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "dawn",
+        "dusk",
+        "golden",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%81%D8%B6%D8%A7%DB%8C_%D9%85%D8%B3%D8%AC%D8%AF_%D8%AD%D8%B3%DB%8C%D9%86%DB%8C_%D8%A7%D8%B2_%D8%A8%DB%8C%D8%B1%D9%88%D9%86_%DA%AF%DA%86_%D8%A8%D8%B1%DB%8C_%D9%88_%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C_%D8%A8%D9%86%D8%A7.jpg",
+      "license": "CC BY 4.0",
+      "caption": "فضای مسجد حسینی از بیرون گچ بری و معماری بنا"
+    },
+    {
+      "id": "ulugh-beg-madrasa-outsid-a396c1e242",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Ulugh_Beg_madrasa_outside_view_1.JPG/3840px-Ulugh_Beg_madrasa_outside_view_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Faqscl · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#88b8e8",
+        "isLight": true,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.692,
+      "negSpace": 0.355,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "expansive",
+        "cool",
+        "light"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ulugh_Beg_madrasa_outside_view_1.JPG",
+      "license": "CC BY-SA 3.0",
+      "caption": "Ulugh Beg madrasa outside view 1"
+    },
+    {
+      "id": "blue-mosque-tabriz05-60e411dff4",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Blue_Mosque%2C_Tabriz05.jpg/3840px-Blue_Mosque%2C_Tabriz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Valen1988 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#483828",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.441,
+      "negSpace": 0,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "warm"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Mosque,_Tabriz05.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Blue Mosque, Tabriz05"
+    },
+    {
+      "id": "blue-mosque-tabriz04-c3de95201d",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Blue_Mosque%2C_Tabriz04.jpg/3840px-Blue_Mosque%2C_Tabriz04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Valen1988 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#583828",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.361,
+      "negSpace": 0.196,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "warm"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Mosque,_Tabriz04.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Blue Mosque, Tabriz04"
+    },
+    {
+      "id": "tiles-of-blue-mosque-2-493e454da8",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Tiles_of_blue_mosque_2.jpg/3840px-Tiles_of_blue_mosque_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "F4fluids · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#383838",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.352,
+      "negSpace": 0,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiles_of_blue_mosque_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Tiles of blue mosque 2"
+    },
+    {
+      "id": "northern-shabistan-blue--b707be40fe",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Northern_shabistan%2C_blue_mosque_2.jpg/3840px-Northern_shabistan%2C_blue_mosque_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "F4fluids · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#282848",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.591,
+      "negSpace": 0.15,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "cool"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northern_shabistan,_blue_mosque_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Northern shabistan, blue mosque 2"
+    },
+    {
+      "id": "old-gnarly-trees-at-dawn-208ee29ecc",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Old%2C_Gnarly_Trees_at_Dawn_%2853355826513%29.jpg/3840px-Old%2C_Gnarly_Trees_at_Dawn_%2853355826513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "John Brighenti from Rockville, MD, United States · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#282828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.528,
+      "negSpace": 0.254,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old,_Gnarly_Trees_at_Dawn_(53355826513).jpg",
+      "license": "CC BY 2.0",
+      "caption": "Old, Gnarly Trees at Dawn (53355826513)"
+    },
+    {
+      "id": "foggy-sunrise-in-high-fl-200f1ddef0",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Foggy_sunrise_in_High_Fl%C3%A4ming_Nature_Park1.jpg/3840px-Foggy_sunrise_in_High_Fl%C3%A4ming_Nature_Park1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "KARL-SEBASTIAN SCHULTE · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#484838",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.569,
+      "negSpace": 0.395,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foggy_sunrise_in_High_Fl%C3%A4ming_Nature_Park1.jpg",
+      "license": "CC BY 2.0",
+      "caption": "Foggy sunrise in High Fläming Nature Park1"
+    },
+    {
+      "id": "d-lmen-kirchspiel-dernek-c4ebaffcea",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/D%C3%BClmen%2C_Kirchspiel%2C_Dernekamp%2C_B%C3%A4ume_--_2021_--_9397.jpg/3840px-D%C3%BClmen%2C_Kirchspiel%2C_Dernekamp%2C_B%C3%A4ume_--_2021_--_9397.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.824,
+      "negSpace": 0,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_Dernekamp,_B%C3%A4ume_--_2021_--_9397.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Constance",
+      "country": "Germany",
+      "tz": "Europe/Berlin",
+      "caption": "Lake Constance · Germany"
+    },
+    {
+      "id": "misty-forest-2-whatcom-c-e5acf5f486",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Misty_forest_2_Whatcom_County.jpg/3840px-Misty_forest_2_Whatcom_County.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "U.S. Department of Agriculture · Wikimedia Commons · CC0",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.659,
+      "negSpace": 0.263,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Misty_forest_2_Whatcom_County.jpg",
+      "license": "CC0",
+      "caption": "Misty forest 2 Whatcom County"
+    },
+    {
+      "id": "d-lmen-leuste-b-ume-im-n-28bccb1fbb",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/D%C3%BClmen%2C_Leuste%2C_B%C3%A4ume_im_Nebel_--_2020_--_5042_%28bw%29.jpg/3840px-D%C3%BClmen%2C_Leuste%2C_B%C3%A4ume_im_Nebel_--_2020_--_5042_%28bw%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#e8e8e8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.935,
+      "negSpace": 0.689,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Leuste,_B%C3%A4ume_im_Nebel_--_2020_--_5042_(bw).jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Constance",
+      "country": "Germany",
+      "tz": "Europe/Berlin",
+      "caption": "Lake Constance · Germany"
+    },
+    {
+      "id": "radiation-fog-over-rice--a2d9401272",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Radiation_fog_over_Rice_River_at_Rice_Lake_National_Wildlife_Refuge_in_McGregor%2C_Minnesota.jpg/3840px-Radiation_fog_over_Rice_River_at_Rice_Lake_National_Wildlife_Refuge_in_McGregor%2C_Minnesota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Lorie Shaull · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#281808",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.556,
+      "negSpace": 0.468,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "warm"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radiation_fog_over_Rice_River_at_Rice_Lake_National_Wildlife_Refuge_in_McGregor,_Minnesota.jpg",
+      "license": "CC BY 4.0",
+      "place": "Mississippi Valley",
+      "country": "United States",
+      "tz": "America/Chicago",
+      "caption": "Mississippi Valley · United States"
+    },
+    {
+      "id": "sunset-cliffs-neighborho-e0be9509ab",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Sunset_Cliffs_neighborhood_homes_-_3.jpg/3840px-Sunset_Cliffs_neighborhood_homes_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RightCowLeftCoast · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#c8c8d8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.651,
+      "negSpace": 0,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_neighborhood_homes_-_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs neighborhood homes"
+    },
+    {
+      "id": "d-lmen-leuste-b-ume-im-n-da36fbd16d",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/D%C3%BClmen%2C_Leuste%2C_B%C3%A4ume_im_Nebel_--_2020_--_5041.jpg/3840px-D%C3%BClmen%2C_Leuste%2C_B%C3%A4ume_im_Nebel_--_2020_--_5041.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#d8e8f8",
+        "isLight": true,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.828,
+      "negSpace": 0.736,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Leuste,_B%C3%A4ume_im_Nebel_--_2020_--_5041.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Constance",
+      "country": "Germany",
+      "tz": "Europe/Berlin",
+      "caption": "Lake Constance · Germany"
+    },
+    {
+      "id": "sunset-cliffs-neighborho-f9f4e596c7",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Sunset_Cliffs_neighborhood_homes_-_1.jpg/3840px-Sunset_Cliffs_neighborhood_homes_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RightCowLeftCoast · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#c8d8d8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.598,
+      "negSpace": 0.247,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_neighborhood_homes_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs neighborhood homes"
+    },
+    {
+      "id": "sunset-cliffs-neighborho-202a3f8852",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sunset_Cliffs_neighborhood_views_-_1.jpg/3840px-Sunset_Cliffs_neighborhood_views_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RightCowLeftCoast · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#c8c8d8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.719,
+      "negSpace": 0.103,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_neighborhood_views_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs neighborhood views"
+    },
+    {
+      "id": "farmer-working-in-field--5a7ecb7ea6",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Farmer_Working_in_Field_at_Dawn_Meherpur_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ashikul Islam Anik · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.757,
+      "negSpace": 0.804,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmer_Working_in_Field_at_Dawn_Meherpur_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Farmer Working in Field at Dawn Meherpur 02"
+    },
+    {
+      "id": "old-gnarly-trees-at-dawn-875473d84b",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Old%2C_Gnarly_Trees_at_Dawn_%2853355934564%29.jpg/3840px-Old%2C_Gnarly_Trees_at_Dawn_%2853355934564%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "John Brighenti from Rockville, MD, United States · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#383818",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.547,
+      "negSpace": 0.393,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "warm"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old,_Gnarly_Trees_at_Dawn_(53355934564).jpg",
+      "license": "CC BY 2.0",
+      "caption": "Old, Gnarly Trees at Dawn (53355934564)"
+    },
+    {
+      "id": "farmer-working-in-field--e74ae5e238",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Farmer_Working_in_Field_at_Dawn_Meherpur_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ashikul Islam Anik · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.697,
+      "negSpace": 0.663,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmer_Working_in_Field_at_Dawn_Meherpur_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Farmer Working in Field at Dawn Meherpur 2"
+    },
+    {
+      "id": "sunset-cliffs-neighborho-080ea91818",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sunset_Cliffs_neighborhood_views_-_2.jpg/3840px-Sunset_Cliffs_neighborhood_views_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RightCowLeftCoast · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#383838",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.58,
+      "negSpace": 0,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_neighborhood_views_-_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs neighborhood views"
+    },
+    {
+      "id": "sunset-cliffs-neighborho-7e77349fa6",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sunset_Cliffs_neighborhood_views_-_4.jpg/3840px-Sunset_Cliffs_neighborhood_views_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RightCowLeftCoast · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.528,
+      "negSpace": 0,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_neighborhood_views_-_4.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs neighborhood views"
+    },
+    {
+      "id": "wsch-d-s-o-ca-nad-kana-e-6c7365986b",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Wsch%C3%B3d_s%C5%82o%C5%84ca_nad_Kana%C5%82em_%C5%81%C4%85cza%C5%84skim_w_Brze%C5%BAnicy%2C_20211009_0711_3152.jpg/3840px-Wsch%C3%B3d_s%C5%82o%C5%84ca_nad_Kana%C5%82em_%C5%81%C4%85cza%C5%84skim_w_Brze%C5%BAnicy%2C_20211009_0711_3152.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Jakub Hałun · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#281808",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.382,
+      "negSpace": 0.637,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "warm"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wsch%C3%B3d_s%C5%82o%C5%84ca_nad_Kana%C5%82em_%C5%81%C4%85cza%C5%84skim_w_Brze%C5%BAnicy,_20211009_0711_3152.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Wschód słońca nad Kanałem Łączańskim w Brzeźnicy, 20211009"
+    },
+    {
+      "id": "d-lmen-wildpark-2015-887-59c739c34b",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/D%C3%BClmen%2C_Wildpark_--_2015_--_8871-7.jpg/3840px-D%C3%BClmen%2C_Wildpark_--_2015_--_8871-7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.309,
+      "negSpace": 0,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2015_--_8871-7.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Constance",
+      "country": "Germany",
+      "tz": "Europe/Berlin",
+      "caption": "Lake Constance · Germany"
+    },
+    {
+      "id": "aks-the-reflection-taj-m-975dc83214",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Aks_The_Reflection_Taj_Mahal.jpg/3840px-Aks_The_Reflection_Taj_Mahal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Antrix3 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#88a8c8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.535,
+      "negSpace": 0.221,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aks_The_Reflection_Taj_Mahal.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Agra",
+      "country": "India",
+      "tz": "Asia/Kolkata",
+      "caption": "Agra · India"
+    },
+    {
+      "id": "sunset-cliffs-natural-pa-1a35eb4cc6",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sunset_Cliffs_Natural_Park_-_3.jpg/3840px-Sunset_Cliffs_Natural_Park_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RightCowLeftCoast · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#d8d8e8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.596,
+      "negSpace": 0,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_Natural_Park_-_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset Cliffs Natural Park"
+    },
+    {
+      "id": "walkway-and-hut-in-paddy-d68b6bd9b9",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Walkway_and_hut_in_paddy_fields_with_water_reflection_of_colorful_clouds_at_sunset_in_Vang_Vieng_Laos.jpg/3840px-Walkway_and_hut_in_paddy_fields_with_water_reflection_of_colorful_clouds_at_sunset_in_Vang_Vieng_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#183848",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.486,
+      "negSpace": 0.097,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walkway_and_hut_in_paddy_fields_with_water_reflection_of_colorful_clouds_at_sunset_in_Vang_Vieng_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Luang Prabang",
+      "country": "Laos",
+      "tz": "Asia/Vientiane",
+      "caption": "Luang Prabang · Laos"
+    },
+    {
+      "id": "water-reflection-of-a-di-804d14b5c4",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Water_reflection_of_a_dirt_road_in_green_paddy_fields%2C_karst_mountains_and_clouds_at_sunset_in_Vang_Vieng_Laos.jpg/3840px-Water_reflection_of_a_dirt_road_in_green_paddy_fields%2C_karst_mountains_and_clouds_at_sunset_in_Vang_Vieng_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#b8b8c8",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.431,
+      "negSpace": 0.02,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_a_dirt_road_in_green_paddy_fields,_karst_mountains_and_clouds_at_sunset_in_Vang_Vieng_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Luang Prabang",
+      "country": "Laos",
+      "tz": "Asia/Vientiane",
+      "caption": "Luang Prabang · Laos"
+    },
+    {
+      "id": "old-gnarly-trees-at-dawn-48c0d08b35",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Old%2C_Gnarly_Trees_at_Dawn_%2853355602796%29.jpg/3840px-Old%2C_Gnarly_Trees_at_Dawn_%2853355602796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "John Brighenti from Rockville, MD, United States · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#282828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.457,
+      "negSpace": 0.28,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old,_Gnarly_Trees_at_Dawn_(53355602796).jpg",
+      "license": "CC BY 2.0",
+      "caption": "Old, Gnarly Trees at Dawn (53355602796)"
+    },
+    {
+      "id": "sunset-cliffs-and-seasta-b90f13c04a",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Sunset_cliffs_and_seastacks.jpg/3840px-Sunset_cliffs_and_seastacks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Marika Caruana · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#f8a858",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.741,
+      "negSpace": 0.536,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "warm"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_cliffs_and_seastacks.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Sunset cliffs and seastacks"
+    },
+    {
+      "id": "golden-harvest-at-sunset-3f10069332",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Golden_Harvest_at_Sunset.jpg/3840px-Golden_Harvest_at_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Derk29 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.78,
+      "negSpace": 0.001,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Harvest_at_Sunset.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Golden Harvest at Sunset"
+    },
+    {
+      "id": "eesti-lennundusmuuseum-h-1e4a3de06c",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eesti_Lennundusmuuseum._H%C3%A4vitaja_F-4C_Phantom_II_kabiin.jpg/3840px-Eesti_Lennundusmuuseum._H%C3%A4vitaja_F-4C_Phantom_II_kabiin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Lauri Veerde · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#282828",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.591,
+      "negSpace": 0,
+      "tags": [
+        "expansive",
+        "wild",
+        "morning",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eesti_Lennundusmuuseum._H%C3%A4vitaja_F-4C_Phantom_II_kabiin.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Eesti Lennundusmuuseum. Hävitaja F"
+    },
+    {
+      "id": "khndzoresk-wheat-field-a-22208ead3f",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Khndzoresk%2C_Wheat_field%2C_Armenia.jpg/3840px-Khndzoresk%2C_Wheat_field%2C_Armenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Vyacheslav Argenberg · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#f8f8f8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.693,
+      "negSpace": 0.612,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khndzoresk,_Wheat_field,_Armenia.jpg",
+      "license": "CC BY 4.0",
+      "caption": "Khndzoresk, Wheat field, Armenia"
+    },
+    {
+      "id": "boulders-on-the-jordan-p-067dcb0bb5",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Boulders_on_the_Jordan_Pond_shore_with_fog_over_the_far_shore%2C_Acadia_National_Park%2C_Maine.jpg/3840px-Boulders_on_the_Jordan_Pond_shore_with_fog_over_the_far_shore%2C_Acadia_National_Park%2C_Maine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Z3lvs · Wikimedia Commons · CC0",
+      "palette": {
+        "dominant": "#c8d8e8",
+        "isLight": true,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.802,
+      "negSpace": 0.443,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boulders_on_the_Jordan_Pond_shore_with_fog_over_the_far_shore,_Acadia_National_Park,_Maine.jpg",
+      "license": "CC0",
+      "place": "Petra",
+      "country": "Jordan",
+      "tz": "Asia/Amman",
+      "caption": "Petra · Jordan"
+    },
+    {
+      "id": "on-pct-north-of-white-pa-48bf42c5bf",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/On_PCT_north_of_White_Pass_and_Dog_Lake._Fog_over_lake_and_trees._%28c589a720b3f244d5977595befc813164%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Steve Redman (MORA) · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#888898",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.734,
+      "negSpace": 0.431,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:On_PCT_north_of_White_Pass_and_Dog_Lake._Fog_over_lake_and_trees._(c589a720b3f244d5977595befc813164).JPG",
+      "license": "Public domain",
+      "caption": "On PCT north of White Pass and Dog Lake. Fog over lake and"
+    },
+    {
+      "id": "farmer-working-in-field--64e585d47f",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Farmer_Working_in_Field_at_Dawn_Meherpur_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Ashikul Islam Anik · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.766,
+      "negSpace": 0.786,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmer_Working_in_Field_at_Dawn_Meherpur_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Farmer Working in Field at Dawn Meherpur 3"
+    },
+    {
+      "id": "jordan-pond-path-through-a9f6c3c644",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Jordan_Pond_Path_through_the_south_shore_meadow_with_fog_over_Jordan_Pond%2C_Acadia_National_Park%2C_Maine.jpg/3840px-Jordan_Pond_Path_through_the_south_shore_meadow_with_fog_over_Jordan_Pond%2C_Acadia_National_Park%2C_Maine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Z3lvs · Wikimedia Commons · CC0",
+      "palette": {
+        "dominant": "#c8d8e8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.733,
+      "negSpace": 0.571,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jordan_Pond_Path_through_the_south_shore_meadow_with_fog_over_Jordan_Pond,_Acadia_National_Park,_Maine.jpg",
+      "license": "CC0",
+      "place": "Petra",
+      "country": "Jordan",
+      "tz": "Asia/Amman",
+      "caption": "Petra · Jordan"
+    },
+    {
+      "id": "wheat-field-in-early-sum-3136a0eb77",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Wheat_field_in_early_summer_2.jpg/3840px-Wheat_field_in_early_summer_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Lars Krogh Berg · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#081808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.35,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheat_field_in_early_summer_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Wheat field in early summer 2"
+    },
+    {
+      "id": "kansas-summer-wheat-and--233e54048c",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Kansas_Summer_Wheat_and_Storm_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "James Watkins · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#182858",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.407,
+      "negSpace": 0.149,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "cool"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kansas_Summer_Wheat_and_Storm_Panorama.jpg",
+      "license": "CC BY 2.0",
+      "caption": "Kansas Summer Wheat and Storm Panorama"
+    },
+    {
+      "id": "d-lmen-m-hlenwegfriedhof-2323501ec8",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/D%C3%BClmen%2C_M%C3%BChlenwegfriedhof_--_2012_--_8083.jpg/3840px-D%C3%BClmen%2C_M%C3%BChlenwegfriedhof_--_2012_--_8083.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#181808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.532,
+      "negSpace": 0.107,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady",
+        "neutral"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_M%C3%BChlenwegfriedhof_--_2012_--_8083.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Lake Constance",
+      "country": "Germany",
+      "tz": "Europe/Berlin",
+      "caption": "Lake Constance · Germany"
+    },
+    {
+      "id": "the-first-light-of-memor-b05487b7b8",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_First_Light_of_Memory.jpg/3840px-The_First_Light_of_Memory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Eleneru · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#082858",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.169,
+      "negSpace": 0.358,
+      "tags": [
+        "resilient",
+        "expansive",
+        "wild",
+        "dramatic",
+        "dusk",
+        "cool"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_First_Light_of_Memory.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "The First Light of Memory"
+    },
+    {
+      "id": "water-reflection-of-kink-d0a9efcbac",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Water_reflection_of_Kinkaku-ji_Temple_trees_and_clouds_under_blue_sky_in_Kyoto_Japan.jpg/3840px-Water_reflection_of_Kinkaku-ji_Temple_trees_and_clouds_under_blue_sky_in_Kyoto_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#6898c8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.555,
+      "negSpace": 0.018,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_Kinkaku-ji_Temple_trees_and_clouds_under_blue_sky_in_Kyoto_Japan.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Kyoto",
+      "country": "Japan",
+      "tz": "Asia/Tokyo",
+      "caption": "Kyoto · Japan"
+    },
+    {
+      "id": "water-reflection-of-tree-372d61da2e",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Water_reflection_of_tree_fence_wooden_hut_and_blue_sky_in_a_rice_field_of_Vang_Vieng_in_Laos.jpg/3840px-Water_reflection_of_tree_fence_wooden_hut_and_blue_sky_in_a_rice_field_of_Vang_Vieng_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#98b8d8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.56,
+      "negSpace": 0.13,
+      "tags": [
+        "contemplative",
+        "fog",
+        "dawn",
+        "morning",
+        "cool",
+        "rain-steady"
+      ],
+      "frames": [
+        "quotes",
+        "cal"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_tree_fence_wooden_hut_and_blue_sky_in_a_rice_field_of_Vang_Vieng_in_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "place": "Luang Prabang",
+      "country": "Laos",
+      "tz": "Asia/Vientiane",
+      "caption": "Luang Prabang · Laos"
+    },
+    {
+      "id": "infinite-reflections-gra-86d4e9e15d",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Infinite_Reflections%2C_Grand_Lake%2C_CO_First_Light_8-29-12_%288097605211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "inkknife_2000 (7.5 million views +) · Wikimedia Commons · CC BY-SA 2.0",
+      "palette": {
+        "dominant": "#485878",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.481,
+      "negSpace": 0,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "cool"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Infinite_Reflections,_Grand_Lake,_CO_First_Light_8-29-12_(8097605211).jpg",
+      "license": "CC BY-SA 2.0",
+      "caption": "Infinite Reflections, Grand Lake, CO First Light 8"
+    },
+    {
+      "id": "l-on-bonvin-plowing-at-d-78a1e34f62",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/L%C3%A9on_Bonvin_-_Plowing_at_Dusk_-_Walters_371650.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Léon Bonvin · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#181818",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.472,
+      "negSpace": 0.684,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Bonvin_-_Plowing_at_Dusk_-_Walters_371650.jpg",
+      "license": "Public domain",
+      "caption": "Plowing at Dusk"
+    },
+    {
+      "id": "yaquina-head-lighthouse--ec465ac180",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Yaquina_Head_Lighthouse_interior_%2822204652428%29.jpg/3840px-Yaquina_Head_Lighthouse_interior_%2822204652428%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Bureau of Land Management Oregon and Washington · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#989898",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.685,
+      "negSpace": 0.252,
+      "tags": [
+        "grounded",
+        "contemplative",
+        "interior",
+        "morning",
+        "warm",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "cal",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yaquina_Head_Lighthouse_interior_(22204652428).jpg",
+      "license": "Public domain",
+      "place": "Washington, D.C.",
+      "country": "United States",
+      "tz": "America/New_York",
+      "caption": "Washington, D.C. · United States"
+    },
+    {
+      "id": "a-modern-vermeer-interio-d181b0d2a9",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%27A_modern_Vermeer%27_-_interior%2C_Saatchi_Gallery%2C_London_-_geograph.org.uk_-_2281242.jpg/3840px-%27A_modern_Vermeer%27_-_interior%2C_Saatchi_Gallery%2C_London_-_geograph.org.uk_-_2281242.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Anthony O'Neil · Wikimedia Commons · CC BY-SA 2.0",
+      "palette": {
+        "dominant": "#686858",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.407,
+      "negSpace": 0.411,
+      "tags": [
+        "grounded",
+        "contemplative",
+        "interior",
+        "morning",
+        "neutral"
+      ],
+      "frames": [
+        "cal",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27A_modern_Vermeer%27_-_interior,_Saatchi_Gallery,_London_-_geograph.org.uk_-_2281242.jpg",
+      "license": "CC BY-SA 2.0",
+      "place": "London",
+      "country": "United Kingdom",
+      "tz": "Europe/London",
+      "caption": "London · United Kingdom"
+    },
+    {
+      "id": "iss064e011766-12-11-2020-0a9a18cc0c",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/ISS064E011766_%2812-11-2020%29_---_Documentation_of_the_Light_Ions_Detector_for_ALTEA_Facility_%28LIDAL_Facility%29_in_the_Columbus_European_Laboratory_%28iss064e011766%29.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "NASA Johnson Space Center · Wikimedia Commons · Public domain",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.358,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "contemplative",
+        "interior",
+        "morning",
+        "warm",
+        "neutral"
+      ],
+      "frames": [
+        "cal",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS064E011766_(12-11-2020)_---_Documentation_of_the_Light_Ions_Detector_for_ALTEA_Facility_(LIDAL_Facility)_in_the_Columbus_European_Laboratory_(iss064e011766).jpg",
+      "license": "Public domain",
+      "caption": "Documentation of the Light Ions Detector for ALTEA Facility"
     }
   ],
   "generatedAt": "2026-10-30T16:50:28.394Z"
