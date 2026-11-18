@@ -73115,6 +73115,103 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS064E011766_(12-11-2020)_---_Documentation_of_the_Light_Ions_Detector_for_ALTEA_Facility_(LIDAL_Facility)_in_the_Columbus_European_Laboratory_(iss064e011766).jpg",
       "license": "Public domain",
       "caption": "Documentation of the Light Ions Detector for ALTEA Facility"
+    },
+    {
+      "id": "kazan-blue-mosque-interi-ec955eb4d7",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Kazan_Blue_Mosque_interior_%282023-03-17%29_14.jpg/3840px-Kazan_Blue_Mosque_interior_%282023-03-17%29_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Vyacheslav Kirillin · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#787858",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.438,
+      "negSpace": 0.567,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "warm"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kazan_Blue_Mosque_interior_(2023-03-17)_14.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Kazan Blue Mosque interior ("
+    },
+    {
+      "id": "tokyo-camii-9164943601-7f93983b63",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tokyo_Camii_-_9164943601.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Guilhem Vellut · Wikimedia Commons · CC BY 2.0",
+      "palette": {
+        "dominant": "#a88878",
+        "isLight": false,
+        "warmth": "warm"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.503,
+      "negSpace": 0,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "warm"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Camii_-_9164943601.jpg",
+      "license": "CC BY 2.0",
+      "place": "Tokyo",
+      "country": "Japan",
+      "tz": "Asia/Tokyo",
+      "caption": "Tokyo · Japan"
+    },
+    {
+      "id": "golden-harvest-at-sunset-70d9ac2381",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Golden_Harvest_at_Sunset1.jpg/3840px-Golden_Harvest_at_Sunset1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Derk29 · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#88a8c8",
+        "isLight": false,
+        "warmth": "cool"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.719,
+      "negSpace": 0,
+      "tags": [
+        "grounded",
+        "warm",
+        "summer",
+        "autumn",
+        "dusk",
+        "golden",
+        "cool"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Harvest_at_Sunset1.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Golden Harvest at Sunset1"
     }
   ],
   "generatedAt": "2026-10-30T16:50:28.394Z"
