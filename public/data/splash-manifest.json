@@ -73212,6 +73212,70 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Harvest_at_Sunset1.jpg",
       "license": "CC BY-SA 4.0",
       "caption": "Golden Harvest at Sunset1"
+    },
+    {
+      "id": "kerk-street-mosque-jhf-k-5bf87ab2a1",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kerk_Street_Mosque_JHF_kerk_%26_sauer_str_011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Johannesburg Heritage Foundation · Wikimedia Commons · CC BY-SA 3.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.428,
+      "negSpace": 0.107,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "morning",
+        "interior",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerk_Street_Mosque_JHF_kerk_%26_sauer_str_011.jpg",
+      "license": "CC BY-SA 3.0",
+      "caption": "Kerk Street Mosque JHF kerk & sauer str 011"
+    },
+    {
+      "id": "2025-11-18-d300-7869-ach-cdeecd9af9",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/2025-11-18_D300-7869_Achim-Lammerts_Neupotz-Altrhein.jpg/3840px-2025-11-18_D300-7869_Achim-Lammerts_Neupotz-Altrhein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Achim Lammerts (Syntaxys) · Wikimedia Commons · CC BY-SA 4.0",
+      "palette": {
+        "dominant": "#e8e8e8",
+        "isLight": true,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.722,
+      "negSpace": 0.059,
+      "tags": [
+        "hopeful",
+        "dawn",
+        "morning",
+        "golden",
+        "warm",
+        "expansive",
+        "neutral",
+        "light"
+      ],
+      "frames": [
+        "quotes",
+        "prayer"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-11-18_D300-7869_Achim-Lammerts_Neupotz-Altrhein.jpg",
+      "license": "CC BY-SA 4.0",
+      "caption": "Lammerts Neupotz"
     }
   ],
   "generatedAt": "2026-10-30T16:50:28.394Z"
