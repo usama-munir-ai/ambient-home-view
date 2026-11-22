@@ -73276,6 +73276,34 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-11-18_D300-7869_Achim-Lammerts_Neupotz-Altrhein.jpg",
       "license": "CC BY-SA 4.0",
       "caption": "Lammerts Neupotz"
+    },
+    {
+      "id": "stuben-arlbergpass-b-hri-5b09fd0887",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stuben_Arlbergpass%2C_B%C3%B6hringer_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Feel free to use my photos, but please mention me as the author and if you want  · Wikimedia Commons · CC BY-SA 3.0 at",
+      "palette": {
+        "dominant": "#484858",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "right",
+      "quietRegion": "top-right",
+      "quietLum": 0.266,
+      "negSpace": 0.207,
+      "tags": [
+        "expansive",
+        "wild",
+        "morning",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stuben_Arlbergpass,_B%C3%B6hringer_2019.jpg",
+      "license": "CC BY-SA 3.0 at",
+      "caption": "Stuben Arlbergpass, Böhringer"
     }
   ],
   "generatedAt": "2026-10-30T16:50:28.394Z"
