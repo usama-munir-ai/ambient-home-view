@@ -10,6 +10,7 @@
 //   DRIVE_SA_EMAIL        client_email
 //   DRIVE_SA_PRIVATE_KEY  private_key PEM ("\n" escapes tolerated)
 //   DRIVE_FOLDER_ID       the shared folder's id (required)
+//   PUBLIC_HOSTNAMES      hostnames that never serve photos (see edge-shared/public-host.js)
 //   PHOTOS_ALLOW_PUBLIC   "true" to serve photos without ACCESS_CODE (only
 //                         when something else, e.g. Cloudflare Access, gates
 //                         the site). Otherwise photos need the access gate.
@@ -17,6 +18,8 @@
 // No SDK: the JWT is signed with WebCrypto and exchanged at Google's token
 // endpoint directly. Token + listing are cached in module scope while the
 // isolate stays warm.
+
+import { isPublicHost, photosAllowed } from "../../edge-shared/public-host.js";
 
 const SCOPE = "https://www.googleapis.com/auth/drive.readonly";
 const TOKEN_URL = "https://oauth2.googleapis.com/token";
@@ -123,12 +126,15 @@ export async function onRequestGet({ request, env }) {
   const site = request.headers.get("sec-fetch-site");
   if (site && site !== "same-origin" && site !== "none") return json(403, { error: "Forbidden" });
 
+  // Public hostnames never serve photos, whatever else is configured.
+  if (isPublicHost(request, env)) return json(404, { error: "Not found" });
+
   const folderId = env.DRIVE_FOLDER_ID || "";
   if (!folderId || !/^[\w-]+$/.test(folderId)) return json(501, { error: "DRIVE_FOLDER_ID not configured" });
 
   // Private photos must never sit on an open URL: without the access gate the
   // listing would be readable by anyone who finds the site.
-  if (!env.ACCESS_CODE && env.PHOTOS_ALLOW_PUBLIC !== "true") {
+  if (!photosAllowed(request, env)) {
     return json(403, { error: "Photos need ACCESS_CODE set (or PHOTOS_ALLOW_PUBLIC=true)" });
   }
 

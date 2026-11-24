@@ -1,6 +1,12 @@
 // Loads `/api/config` (server-side env config: media provider flags).
 
 import { state } from "./state.js";
+import { DEBUG } from "./debug.js";
+
+/** True when this deployment offers the Photos page (set by /api/config). */
+export function photosEnabled() {
+  return DEBUG.mockPhotos || state.config.photosEnabled === true;
+}
 
 export async function loadConfig() {
   // 2s timeout so a hanging /api/config (e.g. under static `serve`) can't

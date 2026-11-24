@@ -12,6 +12,7 @@ import { highlightCurrentFrame, pingDock, flashFrameTitle } from "./dock.js";
 import { onFrameEnter, onFrameLeave } from "./frame-hooks.js";
 import { getPrefs } from "./prefs.js";
 import { hasPhotosPicked } from "./photos.js";
+import { photosEnabled } from "./config.js";
 
 const PEEK_SEQUENCE = [
   { frame: "prayer" },
@@ -30,6 +31,7 @@ export function navigateTo(key, opts = {}) {
   if (getPrefs().liteMode && key !== "home") {
     return;
   }
+  if (key === "photos" && !photosEnabled()) return;
 
   if (state.currentFrame === key) {
     if (!silent) {
@@ -71,7 +73,7 @@ function nextPeekTarget() {
   for (let i = 0; i < len; i += 1) {
     const candidate = PEEK_SEQUENCE[peekIndex % len];
     peekIndex = (peekIndex + 1) % len;
-    if (candidate.requiresPhotos && !hasPhotosPicked()) continue;
+    if (candidate.requiresPhotos && (!photosEnabled() || !hasPhotosPicked())) continue;
     return candidate;
   }
   return PEEK_SEQUENCE[0];

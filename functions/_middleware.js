@@ -9,7 +9,10 @@
 // sets a year-long HttpOnly cookie holding a SHA-256 of the code (never the
 // code itself) and redirects.
 //
+// Hostnames in PUBLIC_HOSTNAMES skip the gate; photos never run there.
 // There is no attempt limiting (that needs storage), so pick a long code.
+
+import { isPublicHost } from "../edge-shared/public-host.js";
 
 const COOKIE = "ambient_access";
 
@@ -49,6 +52,7 @@ async function submittedCode(request, url) {
 export async function onRequest({ request, env, next }) {
   const code = env.ACCESS_CODE || "";
   if (!code) return next(); // gate disabled until configured
+  if (isPublicHost(request, env)) return next(); // public hostname: open, photos refused
 
   const expected = await sha256Hex(COOKIE + "|" + code);
   const cookies = request.headers.get("cookie") || "";

@@ -5,7 +5,7 @@ import { DEBUG } from "./debug.js"; // first: query-param overrides + mock seeds
 import { state } from "./state.js";
 import { TICK_MS, FRAMES } from "./constants.js";
 import { $, on } from "./util.js";
-import { loadConfig } from "./config.js";
+import { loadConfig, photosEnabled } from "./config.js";
 import { loadContent, applyVisitorLocation } from "./content.js";
 import { startThemeRunner } from "./theme.js";
 import { tickHome, renderHomeMeta } from "./home.js";
@@ -59,6 +59,7 @@ async function boot() {
     // Apply Lite mode class before reveal
     const initialPrefs = getPrefs();
     document.documentElement.classList.toggle("lite-mode", !!initialPrefs.liteMode);
+    document.documentElement.classList.toggle("no-photos", !photosEnabled());
     $("app")?.classList.toggle("lite-mode", !!initialPrefs.liteMode);
 
     // Wire the dock and frame nav
@@ -82,7 +83,7 @@ async function boot() {
     startWeatherRunner();
     startPrayerRunner();
     loadDailyAyah();
-    if (!DEBUG.mockHome && !initialPrefs.liteMode) startDriveRunner();
+    if (!DEBUG.mockHome && !initialPrefs.liteMode && photosEnabled()) startDriveRunner();
 
     // Render initial frames
     renderHomeMeta();
@@ -312,7 +313,7 @@ function wireKeyboardNav() {
     const t = e.target;
     if (t && t.closest("input, textarea, [contenteditable]")) return;
     e.preventDefault();
-    const order = FRAMES.map((f) => f.key);
+    const order = FRAMES.map((f) => f.key).filter((k) => k !== "photos" || photosEnabled());
     const i = order.indexOf(state.currentFrame);
     if (i < 0) return;
     const n = e.key === "ArrowRight" ? (i + 1) % order.length : (i - 1 + order.length) % order.length;
@@ -372,7 +373,7 @@ function applyLiteMode(lite) {
     if (state.currentFrame !== "home") {
       navigateTo("home", { silent: true });
     }
-  } else if (!DEBUG.mockHome) {
+  } else if (!DEBUG.mockHome && photosEnabled()) {
     startDriveRunner();
   }
   applyAmbientFx();

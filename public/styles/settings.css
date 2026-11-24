@@ -68,6 +68,7 @@
   border-top: 0;
 }
 
+.no-photos .settings-row[data-photos-only="true"],
 .lite-mode .settings-row[data-full-only="true"] {
   display: none;
 }

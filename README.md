@@ -101,6 +101,10 @@ once from Settings → Scan Drive. The browser never holds Google credentials:
 a small Cloudflare function reads the folder with a service account that
 belongs to you, and that is the only permission it has.
 
+The Photos page only appears on deployments that set it up (see
+[Photos setup](#photos-setup)). Without it, the dashboard simply has no
+Photos page, so a plain public deployment never shows an empty one.
+
 ## It knows where each screen is
 
 Once deployed, one URL works for the whole family. Each screen shows its own
@@ -179,11 +183,20 @@ Variables and Secrets**; retry the latest deployment after changing them):
 | `DRIVE_SA_JSON` | Service-account key JSON for the photos feature. |
 | `DRIVE_FOLDER_ID` | The shared Drive folder to show. Required for photos. |
 | `PHOTOS_ALLOW_PUBLIC` | Photos are only served when `ACCESS_CODE` is set, so a private folder never sits on an open URL. Set this to `true` only if something else, such as Cloudflare Access, already gates the site. |
+| `PUBLIC_HOSTNAMES` | Comma-separated hostnames, such as `example.com,www.example.com`, that are open to everyone: no access code, and no Photos page or photo endpoint. Every other hostname keeps the code and the photos. |
 
 The gate is a Pages Function that runs on every request, which counts toward
 the free Workers quota of 100,000 requests a day. That is plenty for a
 household; for a larger private audience, Cloudflare Access (free for up to
 50 users) gates the site without using any function requests.
+
+### One project, a public dashboard and a private family view
+
+Attach your own domain to the Pages project and list it in
+`PUBLIC_HOSTNAMES`. Anyone can open that domain as a quick dashboard, with
+no code and no photos. The project's `pages.dev` address keeps the access
+code and the family photos. A public hostname can only ever get less access,
+so pointing a request at it never reveals anything private.
 
 ### Photos setup
 

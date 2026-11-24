@@ -7,7 +7,7 @@ export const state = {
   currentFrame: "home",
 
   /** Loaded /api/config payload (media provider flags). */
-  config: { mediaProvider: "curated", mediaEnabled: true },
+  config: { mediaProvider: "curated", mediaEnabled: true, photosEnabled: false },
 
   /** Loaded /data/dashboard-content.json. */
   content: {

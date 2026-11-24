@@ -5,6 +5,7 @@ import { DOCK_IDLE_MS, FRAMES } from "./constants.js";
 import { ICONS } from "./icons.js";
 import { state } from "./state.js";
 import { DEBUG } from "./debug.js";
+import { photosEnabled } from "./config.js";
 
 let hideTimer = null;
 let appShown = false;
@@ -12,7 +13,7 @@ let frameTitleFlashTimer = 0;
 
 export function buildDock() {
   $("dockNav").innerHTML = FRAMES
-    .filter((f) => f.key !== "home")
+    .filter((f) => f.key !== "home" && (f.key !== "photos" || photosEnabled()))
     .map((f) => `
       <button type="button" class="dock-nav-item" data-frame="${f.key}" aria-label="${f.title}">
         ${ICONS[f.icon]}
