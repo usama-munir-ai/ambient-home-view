@@ -1,11 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <radialGradient id="g" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#d8b46a" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#d8b46a" stop-opacity="0"/>
+    <clipPath id="c"><rect width="512" height="512" rx="112"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2a4a"/>
+      <stop offset=".45" stop-color="#7a4a5e"/>
+      <stop offset=".72" stop-color="#e08a52"/>
+      <stop offset="1" stop-color="#f4c27a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="42%">
+      <stop offset="0" stop-color="#ffe2a8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3a066"/>
+      <stop offset="1" stop-color="#3a2f45"/>
+    </linearGradient>
+    <filter id="paint" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".018 .045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="14" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .95  0 0 0 0 .85  0 0 0 .07 0"/></filter>
   </defs>
-  <rect width="512" height="512" rx="112" fill="#06080c"/>
-  <circle cx="256" cy="256" r="184" fill="url(#g)"/>
-  <circle cx="256" cy="256" r="56" fill="#d8b46a"/>
+  <g clip-path="url(#c)">
+    <rect width="512" height="512" fill="url(#sky)"/>
+    <rect width="512" height="512" fill="url(#glow)"/>
+    <g filter="url(#paint)">
+      <path d="M-20 330 L60 262 L120 300 L190 214 L250 280 L300 240 L370 300 L430 236 L540 318 V540 H-20Z" fill="#8a5a6e" opacity=".8"/>
+      <path d="M-20 360 L70 312 L150 346 L240 300 L330 352 L420 306 L540 352 V540 H-20Z" fill="#43344f"/>
+      <rect x="-20" y="380" width="560" height="160" fill="url(#lake)" opacity=".9"/>
+      <g fill="#ffe0a6" opacity=".7"><rect x="206" y="392" width="100" height="6" rx="3"/><rect x="186" y="406" width="140" height="5" rx="2.5" opacity=".7"/><rect x="226" y="418" width="60" height="4" rx="2" opacity=".6"/></g>
+      <path d="M-20 420 Q120 396 230 430 T540 418 V540 H-20Z" fill="#231c2c"/>
+    </g>
+    <rect width="512" height="512" filter="url(#grain)"/>
+  </g>
+  <g transform="translate(256 214)">
+    <circle r="116" fill="#fbf1dc" fill-opacity=".93"/>
+    <circle r="116" fill="none" stroke="#2a2233" stroke-width="10" stroke-opacity=".9"/>
+    <g stroke="#2a2233" stroke-width="10" stroke-linecap="round">
+      <line y1="-96" y2="-80"/><line x1="96" x2="80"/><line y1="96" y2="80"/><line x1="-96" x2="-80"/>
+    </g>
+    <g stroke="#2a2233" stroke-linecap="round">
+      <line x2="-46" y2="-34" stroke-width="18"/>
+      <line x2="54" y2="-62" stroke-width="12"/>
+    </g>
+    <circle r="12" fill="#d9783f"/>
+  </g>
 </svg>
