@@ -73304,6 +73304,40 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stuben_Arlbergpass,_B%C3%B6hringer_2019.jpg",
       "license": "CC BY-SA 3.0 at",
       "caption": "Stuben Arlbergpass, Böhringer"
+    },
+    {
+      "id": "church-bell-tower-and-mi-15469bb60d",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Church_bell_tower_and_minaret_at_dusk%2C_Midyat%2C_Turkey%2C_2024.jpg/3840px-Church_bell_tower_and_minaret_at_dusk%2C_Midyat%2C_Turkey%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Middle East Minorities · Wikimedia Commons · CC BY 4.0",
+      "palette": {
+        "dominant": "#080808",
+        "isLight": false,
+        "warmth": "neutral"
+      },
+      "quietSide": "left",
+      "quietRegion": "top-left",
+      "quietLum": 0.489,
+      "negSpace": 0.54,
+      "tags": [
+        "sacred",
+        "reverent",
+        "mosque",
+        "contemplative",
+        "dawn",
+        "dusk",
+        "golden",
+        "hopeful",
+        "neutral"
+      ],
+      "frames": [
+        "prayer",
+        "quran",
+        "quotes"
+      ],
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_bell_tower_and_minaret_at_dusk,_Midyat,_Turkey,_2024.jpg",
+      "license": "CC BY 4.0",
+      "caption": "Church bell tower and minaret at dusk, Midyat, Turkey,"
     }
   ],
   "generatedAt": "2026-10-30T16:50:28.394Z"
